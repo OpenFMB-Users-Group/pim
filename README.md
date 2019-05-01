@@ -1,14 +1,12 @@
 # OpenFMB Operational Use Case Data Model
 
-This repository contains the UML data model for the OpenFMB Operational/OT use cases.
+This repository contains the OpenFMB operational use-case data models drawing upon IEC 61850 and CIM artifacts.
 
 ## Viewing the model
 
-The UML model was built using Enterprise Architect (EA) from [Sparx Systems](https://www.sparxsystems.com/). There is a free viewer that you can download to view there model here:
+The UML model was built using Enterprise Architect (EA) from Sparx Systems. If you currently do not own a license for EA, there is a free viewer from Sparx Systems that you can download to view there model here:
 
-[Enterprise Architect Downloads](https://www.sparxsystems.com/products/ea/downloads.html)
-
-NOTE: There is a "trial" version of EA located at the above link along with a free "viewer" application. If you do not need to edit the model, choose the "viewer" application. Here is a direct link to the viewer application: [Enterprise Architect Viewer](https://www.sparxsystems.com/bin/EALite.msi)
+[Enterprise Architect Viewer](https://www.sparxsystems.com/bin/EALite.msi)
 
 ## Copyright
 
