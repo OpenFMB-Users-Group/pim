@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.10.4:1", "", "SEQ-093 Publish Cap Bank Control and Control Schedule", "EARoot/EA1/EA4/EA10/EA4/EA559.htm", "185.png", "827", "0", "", "Sequence diagram0","{FC77580D-DDF9-439c-9B58-826B74F2EB49}");
+tocTab[tocTab.length] = new Array("0.1.4.10.4:2", "", "Publish Regulator Control and Control Schedule to subscribers following the generic Control Pattern", "EARoot/EA1/EA4/EA10/EA4/EA564.htm", "102.png", "E6023", "0", "", "InteractionOccurrence0","{8167AB94-2FF6-4e64-830E-B379085131D7}");

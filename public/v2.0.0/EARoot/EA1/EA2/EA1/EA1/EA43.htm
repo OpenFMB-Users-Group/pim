@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DER Circuit Segment Management</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA44.png" usemap="#EA44" border="0" />
+
+<MAP NAME="EA44">
+<area shape="rect" coords="1749,312,1846,413" href="EA94.htm" target="_self">
+<area shape="rect" coords="1856,51,1953,152" href="EA92.htm" target="_self">
+<area shape="rect" coords="1340,325,1582,374" href="../EA2/EA2/EA208.htm" target="_self">
+<area shape="rect" coords="1325,327,1341,343" href="EA182.htm" target="_self">
+<area shape="rect" coords="1581,327,1597,343" href="EA183.htm" target="_self">
+<area shape="rect" coords="1581,355,1597,371" href="EA184.htm" target="_self">
+<area shape="rect" coords="1325,357,1341,373" href="EA181.htm" target="_self">
+<area shape="rect" coords="407,740,423,756" href="EA176.htm" target="_self">
+<area shape="rect" coords="481,740,497,756" href="EA175.htm" target="_self">
+<area shape="rect" coords="526,740,542,756" href="EA180.htm" target="_self">
+<area shape="rect" coords="382,740,398,756" href="EA172.htm" target="_self">
+<area shape="rect" coords="599,740,615,756" href="EA173.htm" target="_self">
+<area shape="rect" coords="503,740,519,756" href="EA174.htm" target="_self">
+<area shape="rect" coords="437,740,453,756" href="EA179.htm" target="_self">
+<area shape="rect" coords="570,740,586,756" href="EA171.htm" target="_self">
+<area shape="rect" coords="548,740,564,756" href="EA178.htm" target="_self">
+<area shape="rect" coords="459,740,475,756" href="EA177.htm" target="_self">
+<area shape="rect" coords="363,698,630,741" href="EA107.htm" target="_self">
+<area shape="rect" coords="570,607,586,623" href="EA167.htm" target="_self">
+<area shape="rect" coords="378,607,394,623" href="EA169.htm" target="_self">
+<area shape="rect" coords="448,607,464,623" href="EA166.htm" target="_self">
+<area shape="rect" coords="474,607,490,623" href="EA165.htm" target="_self">
+<area shape="rect" coords="515,607,531,623" href="EA164.htm" target="_self">
+<area shape="rect" coords="596,607,612,623" href="EA163.htm" target="_self">
+<area shape="rect" coords="404,607,420,623" href="EA162.htm" target="_self">
+<area shape="rect" coords="492,607,508,623" href="EA161.htm" target="_self">
+<area shape="rect" coords="426,607,442,623" href="EA168.htm" target="_self">
+<area shape="rect" coords="544,607,560,623" href="EA160.htm" target="_self">
+<area shape="rect" coords="372,568,652,608" href="EA103.htm" target="_self">
+<area shape="rect" coords="1559,436,1574,451" href="../EA2/EA1/EA198.htm" target="_self">
+<area shape="rect" coords="1575,456,1590,471" href="../EA2/EA1/EA199.htm" target="_self">
+<area shape="rect" coords="1333,448,1348,463" href="../EA2/EA1/EA196.htm" target="_self">
+<area shape="rect" coords="1360,437,1375,452" href="../EA2/EA1/EA197.htm" target="_self">
+<area shape="rect" coords="1574,472,1589,487" href="../EA2/EA1/EA207.htm" target="_self">
+<area shape="rect" coords="1333,469,1348,484" href="../EA2/EA1/EA205.htm" target="_self">
+<area shape="rect" coords="1340,444,1582,493" href="../EA2/EA1/EA191.htm" target="_self">
+<area shape="rect" coords="1877,411,1974,512" href="EA93.htm" target="_self">
+<area shape="rect" coords="2624,2102,2644,2122" href="EA133.htm" target="_self">
+<area shape="rect" coords="2428,2081,2569,2141" href="EA122.htm" target="_self">
+<area shape="rect" coords="2275,2066,2291,2082" href="EA158.htm" target="_self">
+<area shape="rect" coords="2231,2081,2372,2141" href="EA121.htm" target="_self">
+<area shape="rect" coords="2627,1852,2647,1872" href="EA136.htm" target="_self">
+<area shape="rect" coords="2432,1831,2573,1891" href="EA117.htm" target="_self">
+<area shape="rect" coords="2276,1816,2292,1832" href="EA157.htm" target="_self">
+<area shape="rect" coords="2235,1831,2376,1891" href="EA116.htm" target="_self">
+<area shape="rect" coords="2627,1493,2647,1513" href="EA135.htm" target="_self">
+<area shape="rect" coords="2432,1472,2573,1532" href="EA113.htm" target="_self">
+<area shape="rect" coords="2279,1456,2295,1472" href="EA156.htm" target="_self">
+<area shape="rect" coords="2237,1471,2378,1531" href="EA112.htm" target="_self">
+<area shape="rect" coords="2627,1161,2647,1181" href="EA138.htm" target="_self">
+<area shape="rect" coords="2431,1140,2572,1200" href="EA109.htm" target="_self">
+<area shape="rect" coords="2270,1124,2286,1140" href="EA155.htm" target="_self">
+<area shape="rect" coords="2234,1139,2375,1199" href="EA108.htm" target="_self">
+<area shape="rect" coords="671,1129,687,1145" href="EA151.htm" target="_self">
+<area shape="rect" coords="671,1144,803,1204" href="EA127.htm" target="_self">
+<area shape="rect" coords="661,1007,677,1023" href="EA150.htm" target="_self">
+<area shape="rect" coords="676,1022,808,1082" href="EA126.htm" target="_self">
+<area shape="rect" coords="645,2055,661,2071" href="EA154.htm" target="_self">
+<area shape="rect" coords="599,2070,731,2130" href="EA101.htm" target="_self">
+<area shape="rect" coords="647,1702,663,1718" href="EA153.htm" target="_self">
+<area shape="rect" coords="602,1717,734,1777" href="EA98.htm" target="_self">
+<area shape="rect" coords="656,1456,672,1472" href="EA152.htm" target="_self">
+<area shape="rect" coords="603,1471,735,1534" href="EA96.htm" target="_self">
+<area shape="rect" coords="688,891,704,907" href="EA149.htm" target="_self">
+<area shape="rect" coords="640,906,772,966" href="EA125.htm" target="_self">
+<area shape="rect" coords="693,793,709,809" href="EA148.htm" target="_self">
+<area shape="rect" coords="645,808,777,867" href="EA118.htm" target="_self">
+<area shape="rect" coords="622,683,638,699" href="EA170.htm" target="_self">
+<area shape="rect" coords="629,553,645,569" href="EA159.htm" target="_self">
+<area shape="rect" coords="1541,82,1556,97" href="../EA2/EA3/EA240.htm" target="_self">
+<area shape="rect" coords="1574,62,1589,77" href="../EA2/EA3/EA241.htm" target="_self">
+<area shape="rect" coords="1333,67,1348,82" href="../EA2/EA3/EA237.htm" target="_self">
+<area shape="rect" coords="1354,82,1369,97" href="../EA2/EA3/EA238.htm" target="_self">
+<area shape="rect" coords="1574,44,1589,59" href="../EA2/EA3/EA242.htm" target="_self">
+<area shape="rect" coords="1333,46,1348,61" href="../EA2/EA3/EA236.htm" target="_self">
+<area shape="rect" coords="1340,40,1582,89" href="../EA2/EA3/EA229.htm" target="_self">
+<area shape="rect" coords="2624,2218,2644,2238" href="EA131.htm" target="_self">
+<area shape="rect" coords="2428,2198,2569,2258" href="EA124.htm" target="_self">
+<area shape="rect" coords="2275,2183,2291,2199" href="EA144.htm" target="_self">
+<area shape="rect" coords="2231,2198,2372,2258" href="EA123.htm" target="_self">
+<area shape="rect" coords="2627,1622,2647,1642" href="EA137.htm" target="_self">
+<area shape="rect" coords="2432,1601,2573,1661" href="EA115.htm" target="_self">
+<area shape="rect" coords="2624,1967,2644,1987" href="EA134.htm" target="_self">
+<area shape="rect" coords="2429,1948,2570,2008" href="EA120.htm" target="_self">
+<area shape="rect" coords="2279,1586,2295,1602" href="EA146.htm" target="_self">
+<area shape="rect" coords="2235,1601,2376,1661" href="EA114.htm" target="_self">
+<area shape="rect" coords="2287,1932,2303,1948" href="EA54.htm" target="_self">
+<area shape="rect" coords="2232,1947,2373,2007" href="EA119.htm" target="_self">
+<area shape="rect" coords="660,1587,676,1603" href="EA56.htm" target="_self">
+<area shape="rect" coords="614,1602,746,1665" href="EA97.htm" target="_self">
+<area shape="rect" coords="655,1942,671,1958" href="EA143.htm" target="_self">
+<area shape="rect" coords="599,1957,731,2017" href="EA100.htm" target="_self">
+<area shape="rect" coords="2627,1384,2647,1404" href="EA132.htm" target="_self">
+<area shape="rect" coords="2431,1363,2572,1423" href="EA111.htm" target="_self">
+<area shape="rect" coords="2231,213,2251,233" href="EA130.htm" target="_self">
+<area shape="rect" coords="2279,1347,2295,1363" href="EA91.htm" target="_self">
+<area shape="rect" coords="2235,1362,2376,1422" href="EA110.htm" target="_self">
+<area shape="rect" coords="1992,253,2008,269" href="EA60.htm" target="_self">
+<area shape="rect" coords="2038,253,2054,269" href="EA61.htm" target="_self">
+<area shape="rect" coords="2086,253,2102,269" href="EA62.htm" target="_self">
+<area shape="rect" coords="2146,253,2162,269" href="EA59.htm" target="_self">
+<area shape="rect" coords="1964,253,1980,269" href="EA67.htm" target="_self">
+<area shape="rect" coords="2064,253,2080,269" href="EA70.htm" target="_self">
+<area shape="rect" coords="2013,253,2029,269" href="EA69.htm" target="_self">
+<area shape="rect" coords="1957,178,1973,194" href="EA64.htm" target="_self">
+<area shape="rect" coords="1941,253,1957,269" href="EA63.htm" target="_self">
+<area shape="rect" coords="2114,253,2130,269" href="EA65.htm" target="_self">
+<area shape="rect" coords="1857,193,2179,254" href="EA106.htm" target="_self">
+<area shape="rect" coords="1630,173,1727,274" href="EA105.htm" target="_self">
+<area shape="rect" coords="1842,234,1858,250" href="EA57.htm" target="_self">
+<area shape="rect" coords="1899,253,1915,269" href="EA58.htm" target="_self">
+<area shape="rect" coords="1325,176,1594,269" href="EA104.htm" target="_self">
+<area shape="rect" coords="645,2183,661,2199" href="EA71.htm" target="_self">
+<area shape="rect" coords="599,2198,731,2258" href="EA102.htm" target="_self">
+<area shape="rect" coords="641,1342,657,1358" href="EA55.htm" target="_self">
+<area shape="rect" coords="603,1357,735,1435" href="EA129.htm" target="_self">
+<area shape="rect" coords="651,1229,667,1245" href="EA147.htm" target="_self">
+<area shape="rect" coords="607,1244,739,1304" href="EA128.htm" target="_self">
+<area shape="rect" coords="1187,173,1203,189" href="EA77.htm" target="_self">
+<area shape="rect" coords="1091,258,1107,274" href="EA76.htm" target="_self">
+<area shape="rect" coords="1031,258,1047,274" href="EA74.htm" target="_self">
+<area shape="rect" coords="965,258,981,274" href="EA73.htm" target="_self">
+<area shape="rect" coords="929,258,945,274" href="EA72.htm" target="_self">
+<area shape="rect" coords="875,258,891,274" href="EA75.htm" target="_self">
+<area shape="rect" coords="856,258,872,274" href="EA79.htm" target="_self">
+<area shape="rect" coords="842,258,858,274" href="EA82.htm" target="_self">
+<area shape="rect" coords="822,258,838,274" href="EA78.htm" target="_self">
+<area shape="rect" coords="803,258,819,274" href="EA81.htm" target="_self">
+<area shape="rect" coords="785,258,801,274" href="EA80.htm" target="_self">
+<area shape="rect" coords="946,258,962,274" href="EA84.htm" target="_self">
+<area shape="rect" coords="1014,258,1030,274" href="EA86.htm" target="_self">
+<area shape="rect" coords="1067,258,1083,274" href="EA83.htm" target="_self">
+<area shape="rect" coords="1049,258,1065,274" href="EA89.htm" target="_self">
+<area shape="rect" coords="907,258,923,274" href="EA87.htm" target="_self">
+<area shape="rect" coords="984,258,1000,274" href="EA88.htm" target="_self">
+<area shape="rect" coords="888,258,904,274" href="EA85.htm" target="_self">
+<area shape="rect" coords="850,173,866,189" href="EA90.htm" target="_self">
+<area shape="rect" coords="779,188,1236,259" href="EA95.htm" target="_self">
+<area shape="rect" coords="184,211,204,231" href="EA142.htm" target="_self">
+<area shape="rect" coords="655,1828,671,1844" href="EA145.htm" target="_self">
+<area shape="rect" coords="602,1843,734,1903" href="EA99.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">DER Circuit Segment Management : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/11/2020 12:25:07 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">4/27/2021 11:50:32 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.0.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{A913736B-5819-4503-B329-EA96834E09B2}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">2020-05-01:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Added subscription to all devices for the following two services:&lt;ul&gt;<br />&lt;li&gt;Electrical Connectivity Service&lt;/li&gt;&lt;li&gt;Electrical State Service&lt;/li&gt;&lt;/ul&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;li&gt;Removed Sky Cam&lt;/li&gt;&lt;br/&gt;&lt;li&gt;Renamed Coordination Service to Circuit Segment Service&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.3.1.12:1", "", "«Functional» REQ-120 Circuit Segment Service Events and Status", "EARoot/EA1/EA3/EA1/EA12/EA308.htm", "19.png", "E7649", "0", "", "Requirement0","{C15A9F4F-0C23-4cf2-83F3-FE68588ABB46}");
+tocTab[tocTab.length] = new Array("0.1.3.1.12:2", "", "«Functional» REQ-121 Circuit Segment Service Control", "EARoot/EA1/EA3/EA1/EA12/EA309.htm", "19.png", "E5900", "0", "", "Requirement0","{9CB2D5CB-484F-403f-B7BF-936CB88CA701}");

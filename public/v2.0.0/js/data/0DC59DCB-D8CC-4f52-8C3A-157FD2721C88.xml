@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.1.4:1", "", "SEQ-004 Publish Recloser Control", "EARoot/EA1/EA4/EA1/EA4/EA365.htm", "185.png", "945", "0", "", "Sequence diagram0","{9A5C0A2B-EE15-401c-934E-E69356697AD5}");
+tocTab[tocTab.length] = new Array("0.1.4.1.4:2", "", "Publish Recloser Control to subscribers following the generic Control Pattern", "EARoot/EA1/EA4/EA1/EA4/EA368.htm", "102.png", "E7738", "0", "", "InteractionOccurrence0","{11C7BCA9-C923-428d-9561-62B76F4E0D2A}");

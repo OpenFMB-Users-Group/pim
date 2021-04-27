@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Distributed Energy Resources (DER) Circuit Segment Management</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Distributed Energy Resources (DER) Circuit Segment Management", " : "))</script>  : Public   Package</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/11/2020 12:25:02 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">4/1/2021 2:11:12 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.0.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{B7F6D2DF-B4CA-4b84-A6EB-C3AA72318CBD}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">[Scope]:&lt;br/&gt;Management of a circuit segment with DER.&lt;br/&gt;&lt;br/&gt;[Objective]:&lt;br/&gt;Manage DER impact on a layered circuit segment through local and interlayer layer coordination&lt;br/&gt;Harmonize DER operation with centralized systems.&lt;br/&gt;&lt;br/&gt;[Related business cases]:&lt;br/&gt;Solar Smoothing, Volt-VAr Management, Peak Demand, Anti-Islanding, Microgrid Unscheduled Islanding, Microgrid Reconnection, and Fault Location, Isolation, &amp; Service Restoration (FLISR).&lt;br/&gt;&lt;br/&gt;[Short Description]:&lt;br/&gt;The business objective of this Distributed Energy Resources (DER) Circuit Segment Management use case is to actively coordinate circuit segment power system equipment to accommodate DER. The grid edge is moving from a hub-and-spoke control paradigm to devices with layered intelligence incrementally applied where it is most valuable. For a specific circuit segment, localized edge analytics combined with coordinated self-optimization, handle the increasing volume, velocity, and variety of information from an expanding number of heterogeneous devices. Local data exchange within layered circuit segments satisfies that segment&#8217;s need for actionable decision in the field without a roundtrip to a central site. Multiple communications paths and observable interfaces enable interactions between devices and systems at all layer hierarchies. While complementing existing Supervisory Control and Data Acquisition (SCADA) systems, such as a Distribution Management System (DMS) or Energy Management System (EMS), this use case enables interoperability across all grid edge devices and systems to foster enhanced safety, reliability, resiliency, and security.&lt;br/&gt;Building upon this foundational Open Field Message Bus (OpenFMB) use case, there are value-added use case extensions that include Solar Smoothing, Volt-VAr Management, Peak Demand, Anti-Islanding, Microgrid Unscheduled Islanding, Microgrid Reconnection, and Fault Location, Isolation, &amp; Service Restoration (FLISR).&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../linkdocs/EAID_B7F6D2DF_B4CA_4b84_A6EB_C3AA72318CBD.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

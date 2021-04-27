@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.14.2:1", "", "SEQ-131 Switch to Publish Readings", "EARoot/EA1/EA4/EA14/EA2/EA631.htm", "185.png", "836", "0", "", "Sequence diagram0","{226A59FE-74EA-45fb-A944-C53304FD7509}");
+tocTab[tocTab.length] = new Array("0.1.4.14.2:2", "", "Publish Switch Reading to subscribers following the generic Reading Pattern", "EARoot/EA1/EA4/EA14/EA2/EA634.htm", "102.png", "E6063", "0", "", "InteractionOccurrence0","{1ECEF28E-CF39-48f9-97D2-DB7439D74200}");

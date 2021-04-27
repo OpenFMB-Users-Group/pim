@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.16.1:1", "", "SEQ-140 Load Forecast Service to Publish Status", "EARoot/EA1/EA4/EA16/EA1/EA699.htm", "185.png", "942", "0", "", "Sequence diagram0","{56FFFE3A-0DC3-4583-B94A-FAFABF96DBFB}");
+tocTab[tocTab.length] = new Array("0.1.4.16.1:2", "", "Publish Load Forecast Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA16/EA1/EA702.htm", "102.png", "E7734", "0", "", "InteractionOccurrence0","{006CEF14-DB0D-4e2a-8075-41DB41117852}");

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.12.1", "1", "SEQ-110 Reserve Request", "EARoot/EA1/EA4/EA12/EA1/EA597.htm", "4.png", "", "", "{0C472DE1-F2E7-47d0-B2EF-0115114BBAEA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.12.2", "1", "SEQ-111 Reserve Availability", "EARoot/EA1/EA4/EA12/EA2/EA600.htm", "4.png", "", "", "{C3905BB5-E6D8-4d23-8388-ADBE8D0854F4}", "Package");

@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>OpenFMB Operational Model (61850-CIM) (v2.0.0)::Apache License, Version 2.0
+</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Apache License, Version 2.0
+", " : "))</script>  : Public  &lt;&lt;Document&gt;&gt; Class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/21/2018 9:58:33 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">3/31/2021 9:29:26 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.0.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{283CBC8E-DEDB-43e0-A28E-3BD2A4E082E4}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1.htm">Licenses and Copyright</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Apache License&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Version 2.0, January 2004&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.apache.org/licenses/&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;1. Definitions.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;License&quot; shall mean the terms and conditions for use, reproduction,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;and distribution as defined by Sections 1 through 9 of this document.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Licensor&quot; shall mean the copyright owner or entity authorized by&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the copyright owner that is granting the License.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Legal Entity&quot; shall mean the union of the acting entity and all&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;other entities that control, are controlled by, or are under common&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;control with that entity. For the purposes of this definition,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;control&quot; means (i) the power, direct or indirect, to cause the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;direction or management of such entity, whether by contract or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;otherwise, or (ii) ownership of fifty percent (50%) or more of the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;outstanding shares, or (iii) beneficial ownership of such entity.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;exercising permissions granted by this License.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Source&quot; form shall mean the preferred form for making modifications,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;including but not limited to software source code, documentation&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;source, and configuration files.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Object&quot; form shall mean any form resulting from mechanical&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;transformation or translation of a Source form, including but&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;not limited to compiled object code, generated documentation,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;and conversions to other media types.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Work&quot; shall mean the work of authorship, whether in Source or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Object form, made available under the License, as indicated by a&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;copyright notice that is included in or attached to the work&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;(an example is provided in the Appendix below).&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Derivative Works&quot; shall mean any work, whether in Source or Object&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;form, that is based on (or derived from) the Work and for which the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;editorial revisions, annotations, elaborations, or other modifications&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;represent, as a whole, an original work of authorship. For the purposes&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;of this License, Derivative Works shall not include works that remain&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;separable from, or merely link (or bind by name) to the interfaces of,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the Work and Derivative Works thereof.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Contribution&quot; shall mean any work of authorship, including&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the original version of the Work and any modifications or additions&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;to that Work or Derivative Works thereof, that is intentionally&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;submitted to Licensor for inclusion in the Work by the copyright owner&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;or by an individual or Legal Entity authorized to submit on behalf of&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the copyright owner. For the purposes of this definition, &quot;submitted&quot;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;means any form of electronic, verbal, or written communication sent&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;to the Licensor or its representatives, including but not limited to&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;communication on electronic mailing lists, source code control systems,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;and issue tracking systems that are managed by, or on behalf of, the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Licensor for the purpose of discussing and improving the Work, but&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;excluding communication that is conspicuously marked or otherwise&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;designated in writing by the copyright owner as &quot;Not a Contribution.&quot;&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;on behalf of whom a Contribution has been received by Licensor and&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;subsequently incorporated within the Work.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;2. Grant of Copyright License. Subject to the terms and conditions of&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;this License, each Contributor hereby grants to You a perpetual,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;worldwide, non-exclusive, no-charge, royalty-free, irrevocable&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;copyright license to reproduce, prepare Derivative Works of,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;publicly display, publicly perform, sublicense, and distribute the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Work and such Derivative Works in Source or Object form.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;3. Grant of Patent License. Subject to the terms and conditions of&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;this License, each Contributor hereby grants to You a perpetual,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;worldwide, non-exclusive, no-charge, royalty-free, irrevocable&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;(except as stated in this section) patent license to make, have made,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;use, offer to sell, sell, import, and otherwise transfer the Work,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;where such license applies only to those patent claims licensable&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;by such Contributor that are necessarily infringed by their&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Contribution(s) alone or by combination of their Contribution(s)&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;with the Work to which such Contribution(s) was submitted. If You&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;institute patent litigation against any entity (including a&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;cross-claim or counterclaim in a lawsuit) alleging that the Work&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;or a Contribution incorporated within the Work constitutes direct&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;or contributory patent infringement, then any patent licenses&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;granted to You under this License for that Work shall terminate&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;as of the date such litigation is filed.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;4. Redistribution. You may reproduce and distribute copies of the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Work or Derivative Works thereof in any medium, with or without&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;modifications, and in Source or Object form, provided that You&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;meet the following conditions:&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;(a) You must give any other recipients of the Work or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Derivative Works a copy of this License; and&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;(b) You must cause any modified files to carry prominent notices&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;stating that You changed the files; and&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;(c) You must retain, in the Source form of any Derivative Works&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;that You distribute, all copyright, patent, trademark, and&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attribution notices from the Source form of the Work,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;excluding those notices that do not pertain to any part of&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;the Derivative Works; and&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;(d) If the Work includes a &quot;NOTICE&quot; text file as part of its&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;distribution, then any Derivative Works that You distribute must&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;include a readable copy of the attribution notices contained&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;within such NOTICE file, excluding those notices that do not&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;pertain to any part of the Derivative Works, in at least one&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;of the following places: within a NOTICE text file distributed&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as part of the Derivative Works; within the Source form or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;documentation, if provided along with the Derivative Works; or,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;within a display generated by the Derivative Works, if and&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;wherever such third-party notices normally appear. The contents&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;of the NOTICE file are for informational purposes only and&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;do not modify the License. You may add Your own attribution&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;notices within Derivative Works that You distribute, alongside&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;or as an addendum to the NOTICE text from the Work, provided&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;that such additional attribution notices cannot be construed&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;as modifying the License.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;You may add Your own copyright statement to Your modifications and&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;may provide additional or different license terms and conditions&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;for use, reproduction, or distribution of Your modifications, or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;for any such Derivative Works as a whole, provided Your use,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;reproduction, and distribution of the Work otherwise complies with&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the conditions stated in this License.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;5. Submission of Contributions. Unless You explicitly state otherwise,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;any Contribution intentionally submitted for inclusion in the Work&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;by You to the Licensor shall be under the terms and conditions of&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;this License, without any additional terms or conditions.&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Notwithstanding the above, nothing herein shall supersede or modify&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the terms of any separate license agreement you may have executed&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;with Licensor regarding such Contributions.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;6. Trademarks. This License does not grant permission to use the trade&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;names, trademarks, service marks, or product names of the Licensor,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;except as required for reasonable and customary use in describing the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;origin of the Work and reproducing the content of the NOTICE file.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;7. Disclaimer of Warranty. Unless required by applicable law or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;agreed to in writing, Licensor provides the Work (and each&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;implied, including, without limitation, any warranties or conditions&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;PARTICULAR PURPOSE. You are solely responsible for determining the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;appropriateness of using or redistributing the Work and assume any&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;risks associated with Your exercise of permissions under this License.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;8. Limitation of Liability. In no event and under no legal theory,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;whether in tort (including negligence), contract, or otherwise,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;unless required by applicable law (such as deliberate and grossly&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;negligent acts) or agreed to in writing, shall any Contributor be&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;liable to You for damages, including any direct, indirect, special,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;incidental, or consequential damages of any character arising as a&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;result of this License or out of the use or inability to use the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;Work (including but not limited to damages for loss of goodwill,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;work stoppage, computer failure or malfunction, or any and all&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;other commercial damages or losses), even if such Contributor&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;has been advised of the possibility of such damages.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;9. Accepting Warranty or Additional Liability. While redistributing&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the Work or Derivative Works thereof, You may choose to offer,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;and charge a fee for, acceptance of support, warranty, indemnity,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;or other liability obligations and/or rights consistent with this&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;License. However, in accepting such obligations, You may act only&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;on Your own behalf and on Your sole responsibility, not on behalf&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;of any other Contributor, and only if You agree to indemnify,&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;defend, and hold each Contributor harmless for any liability&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;incurred by, or claims asserted against, such Contributor by reason&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;of your accepting any such warranty or additional liability.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;END OF TERMS AND CONDITIONS&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;APPENDIX: How to apply the Apache License to your work.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;To apply the Apache License to your work, attach the following&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;boilerplate notice, with the fields enclosed by brackets &quot;[]&quot;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;replaced with your own identifying information. (Don&#39;t include&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;the brackets!)&#160;&#160;The text should be enclosed in the appropriate&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;comment syntax for the file format. We also recommend that a&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;file or class name and description of purpose be included on the&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;same &quot;printed page&quot; as the copyright notice for easier&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;identification within third-party archives.&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;Copyright [yyyy] [name of copyright owner]&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&lt;br/&gt;&#160;&#160;&#160;you may not use this file except in compliance with the License.&lt;br/&gt;&#160;&#160;&#160;You may obtain a copy of the License at&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;http://www.apache.org/licenses/LICENSE-2.0&lt;br/&gt;&lt;br/&gt;&#160;&#160;&#160;Unless required by applicable law or agreed to in writing, software&lt;br/&gt;&#160;&#160;&#160;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&lt;br/&gt;&#160;&#160;&#160;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&lt;br/&gt;&#160;&#160;&#160;See the License for the specific language governing permissions and&lt;br/&gt;&#160;&#160;&#160;limitations under the License.&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">author</td>
+				<td width="50%" class="TableRow" valign="top">Herb</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario0" onclick="parent.toggleDiv('detailsDIVScenario0','DetailsImageScenario0')" />Details:
+						<div id="detailsDIVScenario0" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">complexity</td>
+				<td width="50%" class="TableRow" valign="top">1</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario1" onclick="parent.toggleDiv('detailsDIVScenario1','DetailsImageScenario1')" />Details:
+						<div id="detailsDIVScenario1" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">complexity</td>
+				<td width="50%" class="TableRow" valign="top">1</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario2" onclick="parent.toggleDiv('detailsDIVScenario2','DetailsImageScenario2')" />Details:
+						<div id="detailsDIVScenario2" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">date_created</td>
+				<td width="50%" class="TableRow" valign="top">2017-07-06 12:50:23</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario3" onclick="parent.toggleDiv('detailsDIVScenario3','DetailsImageScenario3')" />Details:
+						<div id="detailsDIVScenario3" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">date_modified</td>
+				<td width="50%" class="TableRow" valign="top">2017-07-07 11:04:21</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario4" onclick="parent.toggleDiv('detailsDIVScenario4','DetailsImageScenario4')" />Details:
+						<div id="detailsDIVScenario4" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">gentype</td>
+				<td width="50%" class="TableRow" valign="top">Java</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario5" onclick="parent.toggleDiv('detailsDIVScenario5','DetailsImageScenario5')" />Details:
+						<div id="detailsDIVScenario5" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">object_style</td>
+				<td width="50%" class="TableRow" valign="top">MDoc=1;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario6" onclick="parent.toggleDiv('detailsDIVScenario6','DetailsImageScenario6')" />Details:
+						<div id="detailsDIVScenario6" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">package_name</td>
+				<td width="50%" class="TableRow" valign="top">License</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario7" onclick="parent.toggleDiv('detailsDIVScenario7','DetailsImageScenario7')" />Details:
+						<div id="detailsDIVScenario7" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">phase</td>
+				<td width="50%" class="TableRow" valign="top">1.0</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario8" onclick="parent.toggleDiv('detailsDIVScenario8','DetailsImageScenario8')" />Details:
+						<div id="detailsDIVScenario8" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">status</td>
+				<td width="50%" class="TableRow" valign="top">Proposed</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario9" onclick="parent.toggleDiv('detailsDIVScenario9','DetailsImageScenario9')" />Details:
+						<div id="detailsDIVScenario9" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">style</td>
+				<td width="50%" class="TableRow" valign="top">BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario10" onclick="parent.toggleDiv('detailsDIVScenario10','DetailsImageScenario10')" />Details:
+						<div id="detailsDIVScenario10" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">tagged</td>
+				<td width="50%" class="TableRow" valign="top">0</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario11" onclick="parent.toggleDiv('detailsDIVScenario11','DetailsImageScenario11')" />Details:
+						<div id="detailsDIVScenario11" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">tpos</td>
+				<td width="50%" class="TableRow" valign="top">0</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario12" onclick="parent.toggleDiv('detailsDIVScenario12','DetailsImageScenario12')" />Details:
+						<div id="detailsDIVScenario12" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">version</td>
+				<td width="50%" class="TableRow" valign="top">1.0</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario13" onclick="parent.toggleDiv('detailsDIVScenario13','DetailsImageScenario13')" />Details:
+						<div id="detailsDIVScenario13" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

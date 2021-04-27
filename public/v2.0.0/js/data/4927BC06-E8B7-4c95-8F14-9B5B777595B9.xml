@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.1.3:1", "", "«Functional» REQ-020 Solar Events & Status", "EARoot/EA1/EA3/EA1/EA3/EA275.htm", "19.png", "E5862", "0", "", "Requirement0","{254279A3-AB96-4c6a-9973-F7F5D584D00F}");
+tocTab[tocTab.length] = new Array("0.1.3.1.3:2", "", "«Functional» REQ-021 Solar Readings", "EARoot/EA1/EA3/EA1/EA3/EA276.htm", "19.png", "E5863", "0", "", "Requirement0","{B0D3B3AB-2376-43a4-9743-5890161AB620}");
+tocTab[tocTab.length] = new Array("0.1.3.1.3:3", "", "«Functional» REQ-022 Solar Control Schedule", "EARoot/EA1/EA3/EA1/EA3/EA277.htm", "19.png", "E5866", "0", "", "Requirement0","{3432429C-8DEB-4da9-A1A3-41AA145AFAE1}");
