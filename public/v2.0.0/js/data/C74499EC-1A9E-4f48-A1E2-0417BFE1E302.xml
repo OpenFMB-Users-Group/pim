@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.7.2:1", "", "SEQ-061 Publish Generation Readings", "EARoot/EA1/EA4/EA7/EA2/EA495.htm", "185.png", "819", "0", "", "Sequence diagram0","{D141446C-3C88-474f-87F6-2940C6D7A829}");
+tocTab[tocTab.length] = new Array("0.1.4.7.2:2", "", "Publish Generation Reading to subscribers following the generic Reading Pattern", "EARoot/EA1/EA4/EA7/EA2/EA498.htm", "102.png", "E5991", "0", "", "InteractionOccurrence0","{BBE3D315-679A-47a5-AFF5-4E1F3618E622}");

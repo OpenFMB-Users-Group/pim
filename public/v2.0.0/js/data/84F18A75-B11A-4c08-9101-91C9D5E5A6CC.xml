@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.11.4:1", "", "SEQ-103 Publish Breaker Control", "EARoot/EA1/EA4/EA11/EA4/EA588.htm", "185.png", "935", "0", "", "Sequence diagram0","{6818365F-643C-41ee-816D-D882EFFAABC3}");
+tocTab[tocTab.length] = new Array("0.1.4.11.4:2", "", "Publish Breaker Control to subscribers following the generic Control Pattern", "EARoot/EA1/EA4/EA11/EA4/EA591.htm", "102.png", "E7646", "0", "", "InteractionOccurrence0","{40213D39-471E-4f7b-AF34-4E6294D1485C}");

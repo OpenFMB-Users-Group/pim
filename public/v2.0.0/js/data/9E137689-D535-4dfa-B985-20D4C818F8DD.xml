@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.1.2:1", "", "«Functional» REQ-010 Energy Storage System Events & Status", "EARoot/EA1/EA3/EA1/EA2/EA271.htm", "19.png", "E5857", "0", "", "Requirement0","{C0B7A5EE-DFBA-4fa2-99BB-8F2AC3641AF8}");
+tocTab[tocTab.length] = new Array("0.1.3.1.2:2", "", "«Functional» REQ-011 Energy Storage System Readings", "EARoot/EA1/EA3/EA1/EA2/EA272.htm", "19.png", "E5858", "0", "", "Requirement0","{4A30D481-0B05-4860-A260-FF9692433496}");
+tocTab[tocTab.length] = new Array("0.1.3.1.2:3", "", "«Functional» REQ-012 Energy Storage System Control Schedule", "EARoot/EA1/EA3/EA1/EA2/EA273.htm", "19.png", "E5860", "0", "", "Requirement0","{299072D6-34DB-4340-AAA4-23AC04EB075D}");

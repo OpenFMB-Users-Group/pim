@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.3.4:1", "", "SEQ-023 Publish Solar Control Schedule", "EARoot/EA1/EA4/EA3/EA4/EA419.htm", "185.png", "811", "0", "", "Sequence diagram0","{4CC44778-8D9F-4c34-AAFA-1818F9266B7F}");
+tocTab[tocTab.length] = new Array("0.1.4.3.4:2", "", "Publish Solar Control to subscribers following the generic Control Pattern", "EARoot/EA1/EA4/EA3/EA4/EA424.htm", "102.png", "E5955", "0", "", "InteractionOccurrence0","{CCC9951B-3207-465f-9BD0-9CFDA739A8F6}");

@@ -1,0 +1,678 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Circuit Segment Service</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Circuit Segment Service", " : "))</script>  : Public   Actor</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/17/2016 10:09:39 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">5/20/2020 10:38:24 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.0.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{AAFE19B9-88B5-4f04-B751-3FF88A9A9D49}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../EA4/EA1/EA1/EA347.htm">SEQ-001 Recloser to Publish Event</a>, <a href="../EA4/EA1/EA2/EA353.htm">SEQ-002 Recloser to Publish Readings</a>, <a href="../EA4/EA2/EA1/EA374.htm">SEQ-010 ESS to Publish Event</a>, <a href="../EA4/EA2/EA2/EA380.htm">SEQ-011 ESS to Publish Readings</a>, <a href="../EA4/EA2/EA4/EA392.htm">SEQ-013 Publish Energy Storage System Control Schedule</a>, <a href="../EA4/EA3/EA1/EA403.htm">SEQ-020 Solar Inverter to Publish Event</a>, <a href="../EA4/EA3/EA2/EA409.htm">SEQ-021 Solar Inverter to Publish Readings</a>, <a href="../EA4/EA3/EA4/EA419.htm">SEQ-023 Publish Solar Control Schedule</a>, <a href="../EA4/EA4/EA2/EA434.htm">SEQ-031 Resource to Publish Readings</a>, <a href="../EA4/EA6/EA1/EA464.htm">SEQ-050 Load to Publish Event</a>, <a href="../EA4/EA6/EA2/EA468.htm">SEQ-051 Load to Publish Readings</a>, <a href="../EA4/EA6/EA4/EA478.htm">SEQ-053 Publish Load Control Schedule</a>, <a href="../EA4/EA7/EA2/EA495.htm">SEQ-061 Publish Generation Readings</a>, <a href="../EA4/EA7/EA1/EA489.htm">SEQ-060 Publish Generation Event</a>, <a href="../EA4/EA7/EA4/EA505.htm">SEQ-063 Publish Generation Control Schedule</a>, <a href="../EA4/EA7/EA3/EA501.htm">SEQ-062 Publish Generation Status</a>, <a href="../EA4/EA10/EA1/EA543.htm">SEQ-090 Regulator Event</a>, <a href="../EA4/EA10/EA2/EA549.htm">SEQ-091 Regulator Readings</a>, <a href="../EA4/EA10/EA4/EA559.htm">SEQ-093 Publish Cap Bank Control and Control Schedule</a>, <a href="../EA4/EA11/EA1/EA570.htm">SEQ-100 Breaker to Publish Event</a>, <a href="../EA4/EA11/EA2/EA576.htm">SEQ-101 Breaker to Publish Readings</a>, <a href="../EA4/EA13/EA2/EA609.htm">SEQ-122 Circuit Segment Schedule</a>, <a href="../EA4/EA14/EA1/EA625.htm">SEQ-130 Switch to Publish Event</a>, <a href="../EA4/EA14/EA2/EA631.htm">SEQ-131 Switch to Publish Readings</a>, <a href="../EA4/EA14/EA4/EA641.htm">SEQ-133 Publish Switch Control Schedule</a>, <a href="../EA2/EA1/EA1/EA41.htm">DER Circuit Segment Management</a>, <a href="../EA2/EA1/EA2/EA3/EA227.htm">Upper level Circuit Segment Service </a>, <a href="../EA2/EA1/EA2/EA1/EA189.htm">Lower level Circuit Segment Service </a>, <a href="../EA2/EA1/EA2/EA2/EA210.htm">Neighboring Circuit Segment Service</a>, <a href="../EA4/EA1/EA3/EA359.htm">SEQ-003 Recloser to Publish Status</a>, <a href="../EA4/EA11/EA3/EA582.htm">SEQ-102 Breaker to Publish Status</a>, <a href="../EA4/EA2/EA3/EA386.htm">SEQ-012 ESS to Publish Status</a>, <a href="../EA4/EA8/EA1/EA516.htm">SEQ-070 Cap Bank to Publsih Event</a>, <a href="../EA4/EA8/EA2/EA520.htm">SEQ-071 Cap Bank to Publsih Readings</a>, <a href="../EA4/EA8/EA3/EA524.htm">SEQ-072 Cap Bank to Publsih Status</a>, <a href="../EA4/EA8/EA4/EA528.htm">SEQ-073 Publish Cap Bank Control and Control Schedule</a>, <a href="../EA4/EA6/EA3/EA474.htm">SEQ-052 Load to Publish Status</a>, <a href="../EA4/EA9/EA1/EA534.htm">SEQ-080 Meter to Publsih Readings</a>, <a href="../EA4/EA3/EA3/EA415.htm">SEQ-022 Solar Inverter to Publish Status</a>, <a href="../EA4/EA14/EA3/EA637.htm">SEQ-132 Switch to Publish Status</a>, <a href="../EA4/EA10/EA3/EA555.htm">SEQ-092 Regulator Status</a>, <a href="../EA4/EA4/EA1/EA430.htm">SEQ-030 Resource to Publish Event</a>, <a href="../EA4/EA4/EA3/EA440.htm">SEQ-032 Resource to Publish Status</a>, <a href="../EA4/EA4/EA4/EA444.htm">SEQ-033 Publish Resource Discrete Control</a>, <a href="../EA4/EA11/EA4/EA588.htm">SEQ-103 Publish Breaker Control</a>, <a href="../EA4/EA13/EA1/EA605.htm">SEQ-120 Circuit Segment Service to Publish Event</a>, <a href="../EA4/EA5/EA1/EA451.htm">SEQ-040 Planned Interconnection Schedule Profile</a>, <a href="../EA4/EA5/EA2/EA455.htm">SEQ-041 Requested Interconnection Schedule Profile</a>, <a href="../EA4/EA12/EA1/EA595.htm">SEQ-110 Reserve Request</a>, <a href="../EA4/EA12/EA2/EA598.htm">SEQ-111 Reserve Availability</a>, <a href="../EA4/EA13/EA3/EA616.htm">SEQ-121 Circuit Segment Service to Publish Status</a>, <a href="../EA4/EA16/EA1/EA699.htm">SEQ-140 Load Forecast Service to Publish Status</a>, <a href="../EA4/EA17/EA1/EA705.htm">SEQ-150 Market Service to Publish Status</a>, <a href="../EA4/EA18/EA1/EA711.htm">SEQ-160 Weather Forecast Service to Publish Status</a>, <a href="../EA4/EA1/EA4/EA365.htm">SEQ-004 Publish Recloser Control</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">A service electrically balancing a circuit segment for circuit segment management. This service may have adjacent instances, such as Upper Level and Lower Level, as well as Neighboring instances. &lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent.toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
+			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage28" onclick="parent.toggleDiv('detailsDIVMessage28', 'DetailsImageMessage28')" />Details:
+							<div id="detailsDIVMessage28" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage29" onclick="parent.toggleDiv('detailsDIVMessage29', 'DetailsImageMessage29')" />Details:
+							<div id="detailsDIVMessage29" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage30" onclick="parent.toggleDiv('detailsDIVMessage30', 'DetailsImageMessage30')" />Details:
+							<div id="detailsDIVMessage30" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage31" onclick="parent.toggleDiv('detailsDIVMessage31', 'DetailsImageMessage31')" />Details:
+							<div id="detailsDIVMessage31" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage32" onclick="parent.toggleDiv('detailsDIVMessage32', 'DetailsImageMessage32')" />Details:
+							<div id="detailsDIVMessage32" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage33" onclick="parent.toggleDiv('detailsDIVMessage33', 'DetailsImageMessage33')" />Details:
+							<div id="detailsDIVMessage33" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage34" onclick="parent.toggleDiv('detailsDIVMessage34', 'DetailsImageMessage34')" />Details:
+							<div id="detailsDIVMessage34" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage35" onclick="parent.toggleDiv('detailsDIVMessage35', 'DetailsImageMessage35')" />Details:
+							<div id="detailsDIVMessage35" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage36" onclick="parent.toggleDiv('detailsDIVMessage36', 'DetailsImageMessage36')" />Details:
+							<div id="detailsDIVMessage36" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage37" onclick="parent.toggleDiv('detailsDIVMessage37', 'DetailsImageMessage37')" />Details:
+							<div id="detailsDIVMessage37" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage38" onclick="parent.toggleDiv('detailsDIVMessage38', 'DetailsImageMessage38')" />Details:
+							<div id="detailsDIVMessage38" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage39" onclick="parent.toggleDiv('detailsDIVMessage39', 'DetailsImageMessage39')" />Details:
+							<div id="detailsDIVMessage39" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage40" onclick="parent.toggleDiv('detailsDIVMessage40', 'DetailsImageMessage40')" />Details:
+							<div id="detailsDIVMessage40" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage41" onclick="parent.toggleDiv('detailsDIVMessage41', 'DetailsImageMessage41')" />Details:
+							<div id="detailsDIVMessage41" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage42" onclick="parent.toggleDiv('detailsDIVMessage42', 'DetailsImageMessage42')" />Details:
+							<div id="detailsDIVMessage42" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage43" onclick="parent.toggleDiv('detailsDIVMessage43', 'DetailsImageMessage43')" />Details:
+							<div id="detailsDIVMessage43" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA24.htm">Upper Level Segment Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">Reserve Request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage44" onclick="parent.toggleDiv('detailsDIVMessage44', 'DetailsImageMessage44')" />Details:
+							<div id="detailsDIVMessage44" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA23.htm">Neighboring Segment Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">Reserve Request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage45" onclick="parent.toggleDiv('detailsDIVMessage45', 'DetailsImageMessage45')" />Details:
+							<div id="detailsDIVMessage45" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage46" onclick="parent.toggleDiv('detailsDIVMessage46', 'DetailsImageMessage46')" />Details:
+							<div id="detailsDIVMessage46" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage47" onclick="parent.toggleDiv('detailsDIVMessage47', 'DetailsImageMessage47')" />Details:
+							<div id="detailsDIVMessage47" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage48" onclick="parent.toggleDiv('detailsDIVMessage48', 'DetailsImageMessage48')" />Details:
+							<div id="detailsDIVMessage48" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage49" onclick="parent.toggleDiv('detailsDIVMessage49', 'DetailsImageMessage49')" />Details:
+							<div id="detailsDIVMessage49" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage50" onclick="parent.toggleDiv('detailsDIVMessage50', 'DetailsImageMessage50')" />Details:
+							<div id="detailsDIVMessage50" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage51" onclick="parent.toggleDiv('detailsDIVMessage51', 'DetailsImageMessage51')" />Details:
+							<div id="detailsDIVMessage51" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage52" onclick="parent.toggleDiv('detailsDIVMessage52', 'DetailsImageMessage52')" />Details:
+							<div id="detailsDIVMessage52" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage53" onclick="parent.toggleDiv('detailsDIVMessage53', 'DetailsImageMessage53')" />Details:
+							<div id="detailsDIVMessage53" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage54" onclick="parent.toggleDiv('detailsDIVMessage54', 'DetailsImageMessage54')" />Details:
+							<div id="detailsDIVMessage54" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage55" onclick="parent.toggleDiv('detailsDIVMessage55', 'DetailsImageMessage55')" />Details:
+							<div id="detailsDIVMessage55" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage56" onclick="parent.toggleDiv('detailsDIVMessage56', 'DetailsImageMessage56')" />Details:
+							<div id="detailsDIVMessage56" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA24.htm">Upper Level Segment Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">Reserve Availability</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage57" onclick="parent.toggleDiv('detailsDIVMessage57', 'DetailsImageMessage57')" />Details:
+							<div id="detailsDIVMessage57" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage58" onclick="parent.toggleDiv('detailsDIVMessage58', 'DetailsImageMessage58')" />Details:
+							<div id="detailsDIVMessage58" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA23.htm">Neighboring Segment Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">Reserve Availability</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage59" onclick="parent.toggleDiv('detailsDIVMessage59', 'DetailsImageMessage59')" />Details:
+							<div id="detailsDIVMessage59" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage60" onclick="parent.toggleDiv('detailsDIVMessage60', 'DetailsImageMessage60')" />Details:
+							<div id="detailsDIVMessage60" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA22.htm">Lower Level Segment Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">Reserve Availability</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage61" onclick="parent.toggleDiv('detailsDIVMessage61', 'DetailsImageMessage61')" />Details:
+							<div id="detailsDIVMessage61" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA22.htm">Lower Level Segment Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">Reserve Request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage62" onclick="parent.toggleDiv('detailsDIVMessage62', 'DetailsImageMessage62')" />Details:
+							<div id="detailsDIVMessage62" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA18.htm">Circuit Segment Service</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage63" onclick="parent.toggleDiv('detailsDIVMessage63', 'DetailsImageMessage63')" />Details:
+							<div id="detailsDIVMessage63" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1/EA2/EA1/EA194.htm">Lower level Circuit Segment Service </a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1/EA1/EA50.htm">DER Circuit Segment Management</a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA1/EA2/EA3/EA232.htm">Upper level Circuit Segment Service </a></td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

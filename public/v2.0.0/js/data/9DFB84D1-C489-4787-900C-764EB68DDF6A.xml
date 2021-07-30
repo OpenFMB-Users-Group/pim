@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.6.3:1", "", "SEQ-052 Load to Publish Status", "EARoot/EA1/EA4/EA6/EA3/EA474.htm", "185.png", "925", "0", "", "Sequence diagram0","{82CA84DA-5636-4c1f-BD27-48C53A3C3871}");
+tocTab[tocTab.length] = new Array("0.1.4.6.3:2", "", "Publish Load Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA6/EA3/EA477.htm", "102.png", "E7612", "0", "", "InteractionOccurrence0","{E6AEF2A4-0A3F-4609-9FD6-BE3094956E22}");

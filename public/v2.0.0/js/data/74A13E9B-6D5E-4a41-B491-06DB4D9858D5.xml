@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.1.1:1", "", "SEQ-001 Recloser to Publish Event", "EARoot/EA1/EA4/EA1/EA1/EA347.htm", "185.png", "802", "0", "", "Sequence diagram0","{3D5C4605-A0BB-4081-8414-ABED22464254}");
+tocTab[tocTab.length] = new Array("0.1.4.1.1:2", "", "Publish Recloser Event to subscribers following the generic Event Pattern", "EARoot/EA1/EA4/EA1/EA1/EA352.htm", "102.png", "E5917", "0", "", "InteractionOccurrence0","{660E9C82-03A5-418e-B19D-61E9C7557137}");

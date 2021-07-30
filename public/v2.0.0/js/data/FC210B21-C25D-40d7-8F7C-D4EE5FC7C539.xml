@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.4.15.1:1", "", "Control Pattern", "EARoot/EA1/EA4/EA15/EA1/EA652.htm", "185.png", "838", "0", "", "Sequence diagram0","{980CBB93-3E30-437e-B525-D15346545A48}");
+tocTab[tocTab.length] = new Array("0.1.4.15.1:2", "", "", "EARoot/EA1/EA4/EA15/EA1/EA655.htm", "100.png", "E6077", "0", "", "MessageEndpoint0","{3863B1F9-31EB-466d-8826-E04EF3293018}");
+tocTab[tocTab.length] = new Array("0.1.4.15.1:3", "", "Control Publisher", "EARoot/EA1/EA4/EA15/EA1/EA656.htm", "6.png", "E6073", "0", "", "Actor0","{BE0C6034-98D3-41d1-A7A0-589E4D26971A}");
+tocTab[tocTab.length] = new Array("0.1.4.15.1:4", "", "Control Publisher FMB", "EARoot/EA1/EA4/EA15/EA1/EA657.htm", "6.png", "E6074", "0", "", "Actor0","{453A7BB1-742D-4847-8F82-BAA33BC4F3AF}");
+tocTab[tocTab.length] = new Array("0.1.4.15.1:5", "", "Control Subscriber", "EARoot/EA1/EA4/EA15/EA1/EA659.htm", "6.png", "E6075", "0", "", "Actor0","{830BF148-54BD-439f-9FD0-AEF28C6B5392}");
+tocTab[tocTab.length] = new Array("0.1.4.15.1:6", "", "Control Subscriber FMB", "EARoot/EA1/EA4/EA15/EA1/EA660.htm", "6.png", "E6076", "0", "", "Actor0","{78248D3E-4CCC-43d9-8C0E-6621F47747C6}");
+tocTab[tocTab.length] = new Array("0.1.4.15.1:7", "", "Transaction", "EARoot/EA1/EA4/EA15/EA1/EA662.htm", "101.png", "E6072", "0", "", "InteractionFragment0","{9616E54E-797E-4213-83CD-0F8E70D6A8DA}");
