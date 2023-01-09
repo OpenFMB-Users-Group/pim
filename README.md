@@ -6,8 +6,8 @@ This repository contains the OpenFMB operational use-case data models drawing up
 
 The UML model was built using Enterprise Architect (EA) from Sparx Systems. If you currently do not own a license for EA, there is a free viewer from Sparx Systems that you can download to view the model here:
 
-[Enterprise Architect Viewer - 64-bit](https://sparxsystems.com/bin/ealite_x64.msi)
-[Enterprise Architect Viewer - 32-bit](https://sparxsystems.com/bin/ealite_x86.msi)
+* [Enterprise Architect Viewer - 64-bit](https://sparxsystems.com/bin/ealite_x64.msi)
+* [Enterprise Architect Viewer - 32-bit](https://sparxsystems.com/bin/ealite_x86.msi)
 
 ## Copyright
 
