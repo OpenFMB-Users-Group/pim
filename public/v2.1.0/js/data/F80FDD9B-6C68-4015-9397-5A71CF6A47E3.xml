@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.1.5.1.15:1", "", "SwitchDiscreteControlProfile", "EARoot/EA1/EA5/EA1/EA15/EA1263.htm", "175.png", "64", "0", "", "Logical diagram0","{725B2F54-DF48-40c9-85F9-59DC4BCD09D1}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:2", "", "SwitchEventProfile", "EARoot/EA1/EA5/EA1/EA15/EA1265.htm", "175.png", "86", "0", "", "Logical diagram0","{9620CF5C-5F62-4b68-A7FA-A7E0757105F7}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:3", "", "SwitchReadingProfile", "EARoot/EA1/EA5/EA1/EA15/EA1267.htm", "175.png", "16", "0", "", "Logical diagram0","{A05144C8-AF4F-45b6-A71B-62CA99747991}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:4", "", "SwitchStatusProfile", "EARoot/EA1/EA5/EA1/EA15/EA1269.htm", "175.png", "94", "0", "", "Logical diagram0","{61FC1286-5D00-464d-BA9D-677CA12B76FC}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:5", "", "ProtectedSwitch", "EARoot/EA1/EA5/EA1/EA15/EA1272.htm", "5.png", "E1935", "0", "", "Class0","{C09646C9-C798-4f07-A78D-28F667B151A6}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:6", "", "SwitchDiscreteControl", "EARoot/EA1/EA5/EA1/EA15/EA1273.htm", "5.png", "E962", "0", "", "Class0","{B7EA2E52-8867-48b7-8A10-BD6C9CFCD17A}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:7", "", "SwitchDiscreteControlProfile", "EARoot/EA1/EA5/EA1/EA15/EA1274.htm", "5.png", "E957", "0", "", "Class0","{F8026946-85B2-41e4-A8C0-AF023CC48E57}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:8", "", "«LNClass» SwitchDiscreteControlXSWI", "EARoot/EA1/EA5/EA1/EA15/EA1275.htm", "5.png", "E1632", "0", "", "Class0","{8F73B577-DD87-48ac-833C-6493DBBDDDC2}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:9", "", "SwitchEvent", "EARoot/EA1/EA5/EA1/EA15/EA1276.htm", "5.png", "E1692", "0", "", "Class0","{D425814C-0345-4cc5-8D13-593D5F2B735F}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:10", "", "SwitchEventProfile", "EARoot/EA1/EA5/EA1/EA15/EA1277.htm", "5.png", "E1693", "0", "", "Class0","{A7439276-AC9F-4f30-BF0D-A6009DEC089B}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:11", "", "«LNClass» SwitchEventXSWI", "EARoot/EA1/EA5/EA1/EA15/EA1278.htm", "5.png", "E1694", "0", "", "Class0","{4A03E335-1B9C-4014-9BC5-2C0B8ACB8FFD}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:12", "", "SwitchReading", "EARoot/EA1/EA5/EA1/EA15/EA1279.htm", "5.png", "E285", "0", "", "Class0","{07EAD036-BE7F-4b55-851B-AF78302AD7A6}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:13", "", "SwitchReadingProfile", "EARoot/EA1/EA5/EA1/EA15/EA1280.htm", "5.png", "E286", "0", "", "Class0","{30B161AC-970E-4112-8ECB-8ED3518E4147}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:14", "", "SwitchStatus", "EARoot/EA1/EA5/EA1/EA15/EA1281.htm", "5.png", "E1780", "0", "", "Class0","{682DC9B1-E27C-462c-86F8-4E8750A42C95}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:15", "", "SwitchStatusProfile", "EARoot/EA1/EA5/EA1/EA15/EA1282.htm", "5.png", "E1781", "0", "", "Class0","{A4915281-9CCE-44c7-9C7F-AEF8D7991648}");
+tocTab[tocTab.length] = new Array("0.1.5.1.15:16", "", "«LNClass» SwitchStatusXSWI", "EARoot/EA1/EA5/EA1/EA15/EA1283.htm", "5.png", "E1782", "0", "", "Class0","{9C79EDBC-D6B9-44b0-984A-29AA7779C5E3}");

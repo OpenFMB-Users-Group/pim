@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.1.1", "1", "SEQ-001 Recloser to Publish Event", "EARoot/EA1/EA4/EA1/EA1/EA350.htm", "4.png", "", "", "{74A13E9B-6D5E-4a41-B491-06DB4D9858D5}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1.2", "1", "SEQ-002 Recloser to Publish Readings", "EARoot/EA1/EA4/EA1/EA2/EA356.htm", "4.png", "", "", "{4B770AA5-912C-484f-82CB-09173E464516}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1.3", "1", "SEQ-003 Recloser to Publish Status", "EARoot/EA1/EA4/EA1/EA3/EA362.htm", "4.png", "", "", "{0245DB7C-F580-4463-B836-7E8D80226375}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1.4", "1", "SEQ-004 Publish Recloser Control", "EARoot/EA1/EA4/EA1/EA4/EA368.htm", "4.png", "", "", "{0DC59DCB-D8CC-4f52-8C3A-157FD2721C88}", "Package");

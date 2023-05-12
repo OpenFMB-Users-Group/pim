@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.1.1:1", "", "«Functional» REQ-001 Recloser Events & Status", "EARoot/EA1/EA3/EA1/EA1/EA268.htm", "19.png", "E5852", "0", "", "Requirement0","{6E6A36D7-78D0-4c0d-87BF-C6635E278508}");
+tocTab[tocTab.length] = new Array("0.1.3.1.1:2", "", "«Functional» REQ-002 Recloser Readings", "EARoot/EA1/EA3/EA1/EA1/EA269.htm", "19.png", "E5853", "0", "", "Requirement0","{CA1A36E7-D186-4b8a-9377-2D6F75D5B0E8}");
+tocTab[tocTab.length] = new Array("0.1.3.1.1:3", "", "«Functional» REQ-003 Recloser Control", "EARoot/EA1/EA3/EA1/EA1/EA270.htm", "19.png", "E7630", "0", "", "Requirement0","{0DCFA913-044B-4527-BA41-E10522C62237}");

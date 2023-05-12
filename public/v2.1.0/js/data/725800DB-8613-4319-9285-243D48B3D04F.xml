@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.1.10:1", "", "«Functional» REQ-100 Circuit Breaker Events and Status", "EARoot/EA1/EA3/EA1/EA10/EA302.htm", "19.png", "E5894", "0", "", "Requirement0","{4F13F16F-744B-4d88-B449-D9F2D404C9AB}");
+tocTab[tocTab.length] = new Array("0.1.3.1.10:2", "", "«Functional» REQ-101 Circuit Breaker Readings", "EARoot/EA1/EA3/EA1/EA10/EA303.htm", "19.png", "E5895", "0", "", "Requirement0","{35BEAF18-9BDD-4b75-8B2D-9EEA79CE136C}");
+tocTab[tocTab.length] = new Array("0.1.3.1.10:3", "", "«Functional» REQ-102 Circuit Breaker Discrete Control", "EARoot/EA1/EA3/EA1/EA10/EA304.htm", "19.png", "E5896", "0", "", "Requirement0","{9B34873D-0880-4c6b-AA96-5B4FCF12B11B}");

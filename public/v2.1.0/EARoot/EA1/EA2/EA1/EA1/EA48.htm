@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Primary Scenario</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Primary Scenario </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../../EA37.htm">Use Cases</a> / <a href="../EA39.htm">Distributed Energy Resources (DER) Circuit Segment Management</a> / <a href="EA48.htm">Primary Scenario</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/180.png" alt="Diagram"/> <a href="EA44.htm">DER Circuit Segment Management</a></li>
+<li><img src="../../../../../images/7.png" alt="UseCase"/> <a href="EA51.htm">DER Circuit Segment Management</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Primary Scenario  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/11/2020 12:25:02 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">5/22/2020 2:48:05 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.1</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{95B053EB-70FD-4e1e-983E-5DF1062DF4E5}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;b&gt;Use Case Overview and OpenFMB Reference Implementation&lt;/b&gt;&lt;br/&gt;The business objective of this foundational OpenFMB use case, DER Circuit Segment Management, is to quickly federate and actively coordinate power system equipment to accommodate DER within a layered circuit segment. Figure 1 represents an example utility service provider&#8217;s OpenFMB reference implementation that includes a circuit segment hierarchy with three layers.&lt;br/&gt;In Figure 1, the circuit segment of primary interest includes actors on a feeder, referenced as Layer 2. This circuit segment sits between an Upper Level circuit segment, referenced as Layer 3 (e.g. substation), and a Lower Level circuit segment referenced as Layer 1 (e.g. microgrid).&#160;&#160;The device actors in Layer 2 include a solar inverter, energy storage system (ESS), breaker, reclosers, regulator, cap bank, and loads. &lt;br/&gt;Complementing each device actor in Layer 2 are OpenFMB nodes that interface to devices and communicate directly with other OpenFMB nodes within that layer as well as other OpenFMB nodes on adjacent layers. These OpenFMB nodes are responsible for exchanging peer-to-peer data and hosting the Circuit Segment Service actors that analyze and electrically balance each layer by developing four-quadrant real and reactive power schedules.&#160;&#160;Layer 2 coordinates with the adjacent Upper Level and Lower Level layers through the exchange of interconnection schedules.&lt;br/&gt;See attached for the Figure 1.&lt;br/&gt;In Figure 1, the Upper Level circuit segment referenced as Layer 3 includes actors in a substation and other parts of the bulk power system. The substation operation may be directed by a SCADA system, such as a DMS or EMS. In such cases, an OpenFMB adapter, specific to the Upper Level Circuit Service actor, is used to integrate and coordinate interconnection schedules with those SCADA systems.&lt;br/&gt;In Figure 1, the Lower Level circuit segment referenced as Layer 1 includes actors in a microgrid. Complementing each device actor in Layer 1 are OpenFMB nodes that interface to devices and communicate directly with other OpenFMB nodes within that layer as well as other OpenFMB nodes on adjacent layers. These OpenFMB nodes are responsible for exchanging peer-to-peer data and hosting the Circuit Segment Service actors that analyze and electrically balance each layer. Layer 1 coordinates with the adjacent Upper Level Circuit Segment Service actor in Layer 2 through the exchange of interconnection schedules. If the microgrid has a SCADA controller, then an OpenFMB adapter, specific to the Lower Level Circuit Segment Service actor, is used to integrate and coordinate interconnection schedules with that microgrid controller.&lt;br/&gt;The primary goal of each layer&#8217;s Circuit Segment Service is to balance:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Voltage&lt;/li&gt;&lt;li&gt;Frequency&lt;/li&gt;&lt;li&gt;Power Factor &lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;Operating Environment&lt;/b&gt;&lt;br/&gt;The OpenFMB interoperability framework enables utility service providers to employ Distributed Intelligence capabilities for securely accessing and quickly federating grid edge field data between devices and systems.&#160;&#160;Since each utility service provider may have its own unique operating environment, the prevalence and capabilities of their existing devices along a given circuit segment can vary per deployment scenario. As a result, additional intelligent devices could be installed to enhance the operational performance and potential stacked benefits of OpenFMB use cases. &lt;br/&gt;Some considerations that influence the role that the Circuit Segment Service can play in a brownfield environment include whether:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;SCADA Systems (e.g. DMS, EMS, or microgrid controller) can be integrated and coordinated with an OpenFMB adapter&lt;/li&gt;&lt;li&gt;Utility DER sites can be controlled and/or monitored by OpenFMB&lt;/li&gt;&lt;li&gt;Customer DER sites can be controlled and/or monitored by OpenFMB&lt;/li&gt;&lt;li&gt;Distribution Automation (DA) devices can be controlled and/or monitored by OpenFMB&lt;/li&gt;&lt;li&gt;Controllable Loads and/or Meters can be controlled and/or monitored by OpenFMB&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;br/&gt;&lt;b&gt;General Information Flow&lt;/b&gt;&lt;br/&gt;For a specific circuit segment layer, such as those shown in Figure 1, the general iterative flow of information is:&lt;br/&gt;&lt;ol&gt;<br />&lt;li&gt;Actors on the circuit publish messages&lt;ol&gt;<br />&lt;li&gt;Device(s) publish events, readings, and status&lt;/li&gt;&lt;li&gt;Upper level Circuit Segment Service publishes requested interconnection schedule&lt;/li&gt;&lt;li&gt;Lower level Circuit Segment Service(s) publish planned interconnection schedule(s)&lt;/li&gt;&lt;li&gt;Services (e.g. weather forecast, markets, electrical state, electrical connectivity) publish status&lt;/li&gt;&lt;/ol&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;li&gt;The Circuit Segment Service subscribes to messages from relevant actors&lt;ol&gt;<br />&lt;li&gt;Device(s) events, readings, and status &lt;/li&gt;&lt;li&gt;Upper level Circuit Segment Service requested interconnection schedule&lt;/li&gt;&lt;li&gt;Lower level Circuit Segment Service(s) planned interconnection schedules&lt;/li&gt;&lt;li&gt;Services (e.g. weather forecast, markets, electrical state, electrical connectivity) status&lt;/li&gt;&lt;/ol&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;li&gt;The Circuit Segment Service develops four-quadrant real and reactive power schedules for devices on its circuit segment and adjacent Lower Level Circuit Segments&lt;/li&gt;&lt;br/&gt;&lt;li&gt;If there are significant schedule changes, the Circuit Segment Service publishes updated schedules&lt;ol&gt;<br />&lt;li&gt;Device(s) schedules&lt;/li&gt;&lt;li&gt;Upper level Circuit Segment Service planned interconnection schedule&lt;/li&gt;&lt;li&gt;Lower level Circuit Segments Service(s) requested interconnection schedule(s)&lt;/li&gt;&lt;/ol&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;li&gt;Actors on the circuit subscribe to messages from the Circuit Segment Service&lt;ol&gt;<br />&lt;li&gt;Device(s) subscribe to and execute schedules&lt;/li&gt;&lt;li&gt;Upper level Circuit Segment Service subscribes to planned interconnection schedule and incorporates it in its four-quadrant real and reactive power schedules&lt;/li&gt;&lt;li&gt;Lower level Circuit Segments Service(s) subscribe to requested interconnection schedules and incorporate them in their four-quadrant real and reactive power schedules.&lt;/li&gt;&lt;/ol&gt;<br />&lt;/li&gt;&lt;br/&gt;&lt;/ol&gt;<br />&lt;b&gt;Circuit Segment Service&lt;/b&gt;&lt;br/&gt;DER Circuit Segment Management is the foundational use case that ensures use case extensions like Solar Smoothing, Volt-VAr Management, and FLISR (among others) operate effectively. The Circuit Segment Service can be composed of sub-algorithms that orchestrate use case extensions, based on multiple objectives, devices, and priority. The Circuit Segment Service manages Voltage, Frequency, and Power Factor for a given circuit segment by leveraging a constraint-based optimization approach responsible for the coordination and control of actors like Distribution Automation (DA) devices and DER. The following other services enable and support the DER Circuit Segment Management use case:&lt;br/&gt;&lt;i&gt;Electrical State Service&lt;/i&gt;&lt;br/&gt;The electrical state service mirrors and models the state of the electrical system, which is defined as the combined values of voltage magnitude, and phase angle. The electrical state service can either be a separate service actor or integrated within the Circuit Segment Service.&lt;br/&gt;&lt;i&gt;Electrical Connectivity Service&lt;/i&gt;&lt;br/&gt;The Electrical Connectivity Service provides a grid connectivity model used by the utility service provider&#8217;s distribution operations often drawn from a static as-built Geospatial Information System (GIS) model.&#160;&#160;Additionally, it can be dynamically discovered at the grid edge via OpenFMB nodes determining near-real-time as-operated connectivity with their neighbors. &lt;br/&gt;&lt;i&gt;Market Service&lt;/i&gt;&lt;br/&gt;The Market Service provides market pricing information, such as Locational Marginal Prices (LMPs).&lt;br/&gt;&lt;i&gt;Load Forecast Service&lt;/i&gt;&lt;br/&gt;The Load Forecast Service provides a forecast of anticipated load, for both controllable and uncontrollable loads (as available), on a specific circuit segment.&lt;br/&gt;&lt;i&gt;Weather Forecast Service&lt;/i&gt;&lt;br/&gt;The Weather Forecast Service provides short-term (minutes) and mid-term (hours to one-day) weather forecasts for temperature, pressure, air speed, and fire risk. Certain use case extensions may require specific weather forecast services for day-ahead or alternative term forecasts.&#160;&#160;The Weather Forecast Service also interfaces directly with auxiliary devices, such as weather sensors or sky cameras. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('LinkedDocument') : toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../linkdocs/EAID_95B053EB_70FD_4e1e_983E_5DF1062DF4E5.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

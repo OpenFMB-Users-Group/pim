@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>essmodule</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> essmodule </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../EA716.htm">OpenFMB Information Model</a> / <a href="EA720.htm">openfmb</a> / <a href="./EA5/EA998.htm">essmodule</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA984.htm">ESSCapabilityOverrideProfile</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA986.htm">ESSCapabilityProfile</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA988.htm">ESSControlProfile</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA990.htm">ESSDiscreteControlProfile</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA992.htm">ESSEventProfile</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA994.htm">ESSReadingProfile</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA5/EA996.htm">ESSStatusProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA999.htm">CapacityFirming</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1000.htm">ESSCapability</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1001.htm">ESSCapabilityConfiguration</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1002.htm">ESSCapabilityOverride</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1003.htm">ESSCapabilityOverrideProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1004.htm">ESSCapabilityProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1005.htm">ESSCapabilityRatings</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1006.htm">ESSControl</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1007.htm">EssControlFSCC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1008.htm">ESSControlProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1009.htm">ESSControlScheduleFSCH</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1010.htm">ESSCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1011.htm">ESSCurvePoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1035.htm">ESSDiscreteControl</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1036.htm">ESSDiscreteControlDBAT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1037.htm">ESSDiscreteControlProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1012.htm">ESSEvent</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1013.htm">ESSEventAndStatusZGEN</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1014.htm">ESSEventProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1015.htm">EssEventZBAT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1016.htm">ESSEventZGEN</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1017.htm">ESSFunction</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1018.htm">ESSPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1019.htm">ESSPointStatus</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1020.htm">ESSReading</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1021.htm">ESSReadingProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1022.htm">ESSStatus</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1023.htm">ESSStatusProfile</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1024.htm">EssStatusZBAT</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1025.htm">ESSStatusZGEN</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1026.htm">FrequencyRegulation</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1027.htm">PeakShaving</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1028.htm">SocLimit</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1029.htm">SOCManagement</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1031.htm">VoltageDroop</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1032.htm">VoltagePI</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA5/EA1033.htm">VoltageRegulation</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">essmodule  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">7/26/2017 5:55:34 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">4/27/2018 2:24:56 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.1</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{382CFBB2-05E2-42d9-A2C5-007BC866A429}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../../EA2/EA1/EA1/EA44.htm">DER Circuit Segment Management</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">attributeFormDefault</td>
+				<td width="50%" class="TableRow" valign="top">unqualified</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">defaultNamespace</td>
+				<td width="50%" class="TableRow" valign="top"><a href="http://openfmb.org/2021/04/openfmb/essmodule" target="_blank" >http://openfmb.org/2021/04/openfmb/essmodule</a></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">elementFormDefault</td>
+				<td width="50%" class="TableRow" valign="top">qualified</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_csharp_namespace</td>
+				<td width="50%" class="TableRow" valign="top">openfmb.essmodule</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_go_package</td>
+				<td width="50%" class="TableRow" valign="top">gitlab.com/openfmb/psm/ops/protobuf/go-openfmb-ops-protobuf/v2/openfmb/essmodule</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_java_multiple_files</td>
+				<td width="50%" class="TableRow" valign="top">true</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_java_package</td>
+				<td width="50%" class="TableRow" valign="top">openfmb.essmodule</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">schemaLocation</td>
+				<td width="50%" class="TableRow" valign="top">ESSModule.xsd</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">targetNamespace</td>
+				<td width="50%" class="TableRow" valign="top"><a href="http://openfmb.org/2021/04/openfmb/essmodule" target="_blank" >http://openfmb.org/2021/04/openfmb/essmodule</a></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">targetNamespacePrefix</td>
+				<td width="50%" class="TableRow" valign="top">ess</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">version</td>
+				<td width="50%" class="TableRow" valign="top">1.0</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA370.htm">(SEQ-01) Energy Storage System Related</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA4/EA395.htm">SEQ-013 Publish Energy Storage System Control Schedule</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA4/EA2/EA2/EA383.htm">SEQ-011 Energy Storage System to Publish Readings</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

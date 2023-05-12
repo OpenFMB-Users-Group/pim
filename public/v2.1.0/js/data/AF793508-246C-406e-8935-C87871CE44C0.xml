@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.4.13.1", "1", "SEQ-120 Circuit Segment Service to Publish Event", "EARoot/EA1/EA4/EA13/EA1/EA608.htm", "4.png", "", "", "{CC312E49-6397-4288-8807-755F5754A7E0}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.13.2", "1", "SEQ-122 Circuit Segment Schedule", "EARoot/EA1/EA4/EA13/EA2/EA612.htm", "4.png", "", "", "{7CFDFF2A-0E68-4855-B2CA-81F3D11041E0}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.13.3", "1", "SEQ-121 Circuit Segment Service to Publish Status", "EARoot/EA1/EA4/EA13/EA3/EA619.htm", "4.png", "", "", "{5A704A93-23F7-43eb-92F4-216949B189C1}", "Package");

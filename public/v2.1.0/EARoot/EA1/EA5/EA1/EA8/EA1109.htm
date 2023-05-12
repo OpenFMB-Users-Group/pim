@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>LoadControlProfile</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> LoadControlProfile </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../../EA716.htm">OpenFMB Information Model</a> / <a href="../EA720.htm">openfmb</a> / <a href="EA1117.htm">loadmodule</a> / <a href="EA1109.htm">LoadControlProfile</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1109.htm">LoadControlProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1111.htm">LoadEventProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1113.htm">LoadReadingProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1115.htm">LoadStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1118.htm">LoadControl</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1119.htm">LoadControlFSCC</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1120.htm">LoadControlProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1121.htm">LoadControlScheduleFSCH</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1122.htm">LoadCSG</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1123.htm">LoadEvent</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1124.htm">LoadEventAndStatusZGLD</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1125.htm">LoadEventProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1126.htm">LoadEventZGLD</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1127.htm">LoadPoint</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1128.htm">LoadPointStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1129.htm">LoadReading</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1130.htm">LoadReadingProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1131.htm">LoadStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1132.htm">LoadStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1133.htm">LoadStatusZGLD</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1110.png" usemap="#EA1110" border="0" />
+
+<MAP NAME="EA1110">
+<area shape="rect" coords="1292,181,1539,305" href="EA1127.htm" target="_self">
+<area shape="rect" coords="1255,357,1389,433" href="EA1122.htm" target="_self">
+<area shape="rect" coords="1075,365,1226,434" href="EA1121.htm" target="_self">
+<area shape="rect" coords="298,275,453,345" href="../EA4/EA847.htm" target="_self">
+<area shape="rect" coords="307,144,446,245" href="../EA4/EA826.htm" target="_self">
+<area shape="rect" coords="10,197,190,327" href="../EA4/EA833.htm" target="_self">
+<area shape="rect" coords="516,472,718,542" href="../EA4/EA823.htm" target="_self">
+<area shape="rect" coords="810,10,949,111" href="../EA4/EA881.htm" target="_self">
+<area shape="rect" coords="815,137,947,196" href="../EA4/EA882.htm" target="_self">
+<area shape="rect" coords="809,370,954,437" href="EA1119.htm" target="_self">
+<area shape="rect" coords="786,254,979,302" href="../EA4/EA830.htm" target="_self">
+<area shape="rect" coords="1080,244,1212,314" href="../EA4/EA835.htm" target="_self">
+<area shape="rect" coords="531,207,698,334" href="../EA4/EA838.htm" target="_self">
+<area shape="rect" coords="503,372,727,441" href="EA1118.htm" target="_self">
+<area shape="rect" coords="20,389,184,433" href="EA1120.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">LoadControlProfile : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/17/2017 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">12/3/2020 3:43:00 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{C91C4C4D-0068-419b-8E7D-2B18069170DD}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

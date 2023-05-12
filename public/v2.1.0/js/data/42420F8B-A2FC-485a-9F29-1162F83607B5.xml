@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.8.1:1", "", "SEQ-070 Cap Bank to Publsih Event", "EARoot/EA1/EA4/EA8/EA1/EA517.htm", "185.png", "921", "0", "", "Sequence diagram0","{EA77C99E-EFD7-418b-8982-D9D8916FD71B}");
+tocTab[tocTab.length] = new Array("0.1.4.8.1:2", "", "Publish Cap Bank Event to subscribers following the generic Event Pattern", "EARoot/EA1/EA4/EA8/EA1/EA520.htm", "102.png", "E7604", "0", "", "InteractionOccurrence0","{5038ECC8-F688-456c-A865-429CBF58367F}");

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.3.1:1", "", "SEQ-020 Solar Inverter to Publish Event", "EARoot/EA1/EA4/EA3/EA1/EA404.htm", "185.png", "809", "0", "", "Sequence diagram0","{B5885E68-820C-43dd-9E45-D72402A53284}");
+tocTab[tocTab.length] = new Array("0.1.4.3.1:2", "", "Publish SolarEvent to subscribers following the generic Event Pattern", "EARoot/EA1/EA4/EA3/EA1/EA409.htm", "102.png", "E5947", "0", "", "InteractionOccurrence0","{A51DABCD-E9BE-4251-BE2E-CE70133F3D49}");

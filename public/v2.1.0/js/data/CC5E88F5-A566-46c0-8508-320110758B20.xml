@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.1.5.1.10:1", "", "RecloserDiscreteControlProfile", "EARoot/EA1/EA5/EA1/EA10/EA1139.htm", "175.png", "88", "0", "", "Logical diagram0","{EB6BCFA7-C23F-4045-9EF9-9912A3C9A92B}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:2", "", "RecloserEventProfile", "EARoot/EA1/EA5/EA1/EA10/EA1141.htm", "175.png", "96", "0", "", "Logical diagram0","{B9A854FD-AABD-4d2a-A917-F4F697F84DE8}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:3", "", "RecloserReadingProfile", "EARoot/EA1/EA5/EA1/EA10/EA1143.htm", "175.png", "15", "0", "", "Logical diagram0","{B38BCE7A-B291-4497-8677-F4EBB090C03B}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:4", "", "RecloserStatusProfile", "EARoot/EA1/EA5/EA1/EA10/EA1145.htm", "175.png", "97", "0", "", "Logical diagram0","{280BC81C-5A57-423f-A766-9F3EF477E657}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:5", "", "Recloser", "EARoot/EA1/EA5/EA1/EA10/EA1149.htm", "5.png", "E1932", "0", "", "Class0","{B0CB3225-BF1B-4108-9A6D-B995445F4DFC}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:6", "", "RecloserDiscreteControl", "EARoot/EA1/EA5/EA1/EA10/EA1150.htm", "5.png", "E1718", "0", "", "Class0","{A5056966-516E-49d0-B79E-E15C0555B7EF}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:7", "", "RecloserDiscreteControlProfile", "EARoot/EA1/EA5/EA1/EA10/EA1151.htm", "5.png", "E1717", "0", "", "Class0","{50DA3995-5098-4ab5-B290-A82C7304577D}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:8", "", "«LNClass» RecloserDiscreteControlXCBR", "EARoot/EA1/EA5/EA1/EA10/EA1152.htm", "5.png", "E1719", "0", "", "Class0","{28D746CF-C219-460f-899D-965E6853AD19}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:9", "", "RecloserEvent", "EARoot/EA1/EA5/EA1/EA10/EA1153.htm", "5.png", "E1785", "0", "", "Class0","{9C62A1FD-3BEE-4095-8147-1FF29AA132B5}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:10", "", "RecloserEventProfile", "EARoot/EA1/EA5/EA1/EA10/EA1154.htm", "5.png", "E1786", "0", "", "Class0","{9A1C6A72-E037-4626-8821-0729F635D7A1}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:11", "", "RecloserReading", "EARoot/EA1/EA5/EA1/EA10/EA1155.htm", "5.png", "E282", "0", "", "Class0","{8CF4E8ED-D5C8-4aa6-AEBD-6DD5244A8F5A}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:12", "", "RecloserReadingProfile", "EARoot/EA1/EA5/EA1/EA10/EA1156.htm", "5.png", "E283", "0", "", "Class0","{FEE4E1FF-5E33-4c46-B6E0-9CEFA65ECCB6}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:13", "", "RecloserStatus", "EARoot/EA1/EA5/EA1/EA10/EA1157.htm", "5.png", "E1789", "0", "", "Class0","{96A8778D-2541-435e-9075-ABBF4C697A24}");
+tocTab[tocTab.length] = new Array("0.1.5.1.10:14", "", "RecloserStatusProfile", "EARoot/EA1/EA5/EA1/EA10/EA1158.htm", "5.png", "E1788", "0", "", "Class0","{52A10ECF-BB1D-4d4e-8F03-3800F82885AF}");

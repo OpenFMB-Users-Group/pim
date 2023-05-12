@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.11.1", "1", "SEQ-100 Breaker to Publish Event", "EARoot/EA1/EA4/EA11/EA1/EA573.htm", "4.png", "", "", "{31829D50-41DA-4a59-A8F7-BD03FD61CA4E}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.11.2", "1", "SEQ-101 Breaker to Publish Readings", "EARoot/EA1/EA4/EA11/EA2/EA579.htm", "4.png", "", "", "{1A533A5F-D91E-4e62-B611-69E570BC031D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.11.3", "1", "SEQ-102 Breaker to Publish Status", "EARoot/EA1/EA4/EA11/EA3/EA585.htm", "4.png", "", "", "{3B92635E-C40C-4121-A8FE-33F9A7089444}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.11.4", "1", "SEQ-103 Publish Breaker Control", "EARoot/EA1/EA4/EA11/EA4/EA591.htm", "4.png", "", "", "{84F18A75-B11A-4c08-9101-91C9D5E5A6CC}", "Package");

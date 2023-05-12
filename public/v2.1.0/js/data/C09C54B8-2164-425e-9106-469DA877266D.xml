@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.5.2:1", "", "SEQ-041 Requested Interconnection Schedule Profile", "EARoot/EA1/EA4/EA5/EA2/EA456.htm", "185.png", "938", "0", "", "Sequence diagram0","{48CB4F13-8972-4e17-9322-01E095C4570E}");
+tocTab[tocTab.length] = new Array("0.1.4.5.2:2", "", "Publish Requested Interconnection Schedule to subscribers following the generic Control Pattern", "EARoot/EA1/EA4/EA5/EA2/EA459.htm", "102.png", "E7673", "0", "", "InteractionOccurrence0","{82A119AB-9FDA-4ad2-AE1A-7F0C8F8A4D6A}");

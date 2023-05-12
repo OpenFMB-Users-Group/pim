@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ESSDiscreteControlProfile</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> ESSDiscreteControlProfile </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../../EA716.htm">OpenFMB Information Model</a> / <a href="../EA720.htm">openfmb</a> / <a href="EA998.htm">essmodule</a> / <a href="EA990.htm">ESSDiscreteControlProfile</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA984.htm">ESSCapabilityOverrideProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA986.htm">ESSCapabilityProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA988.htm">ESSControlProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA990.htm">ESSDiscreteControlProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA992.htm">ESSEventProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA994.htm">ESSReadingProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA996.htm">ESSStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA999.htm">CapacityFirming</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1000.htm">ESSCapability</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1001.htm">ESSCapabilityConfiguration</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1002.htm">ESSCapabilityOverride</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1003.htm">ESSCapabilityOverrideProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1004.htm">ESSCapabilityProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1005.htm">ESSCapabilityRatings</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1006.htm">ESSControl</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1007.htm">EssControlFSCC</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1008.htm">ESSControlProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1009.htm">ESSControlScheduleFSCH</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1010.htm">ESSCSG</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1011.htm">ESSCurvePoint</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1035.htm">ESSDiscreteControl</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1036.htm">ESSDiscreteControlDBAT</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1037.htm">ESSDiscreteControlProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1012.htm">ESSEvent</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1013.htm">ESSEventAndStatusZGEN</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1014.htm">ESSEventProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1015.htm">EssEventZBAT</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1016.htm">ESSEventZGEN</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1017.htm">ESSFunction</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1018.htm">ESSPoint</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1019.htm">ESSPointStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1020.htm">ESSReading</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1021.htm">ESSReadingProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1022.htm">ESSStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1023.htm">ESSStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1024.htm">EssStatusZBAT</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1025.htm">ESSStatusZGEN</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1026.htm">FrequencyRegulation</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1027.htm">PeakShaving</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1028.htm">SocLimit</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1029.htm">SOCManagement</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1031.htm">VoltageDroop</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1032.htm">VoltagePI</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1033.htm">VoltageRegulation</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA991.png" usemap="#EA991" border="0" />
+
+<MAP NAME="EA991">
+<area shape="rect" coords="1740,489,1830,559" href="../EA4/EA899.htm" target="_self">
+<area shape="rect" coords="1528,484,1675,563" href="../EA4/EA966.htm" target="_self">
+<area shape="rect" coords="541,977,718,1082" href="../EA4/EA905.htm" target="_self">
+<area shape="rect" coords="1042,1403,1235,1547" href="../EA4/EA857.htm" target="_self">
+<area shape="rect" coords="1258,1413,1423,1501" href="../EA4/EA892.htm" target="_self">
+<area shape="rect" coords="758,1512,923,1563" href="../EA4/EA900.htm" target="_self">
+<area shape="rect" coords="548,1439,725,1544" href="../EA4/EA880.htm" target="_self">
+<area shape="rect" coords="758,1439,923,1490" href="../EA4/EA901.htm" target="_self">
+<area shape="rect" coords="1292,1216,1417,1286" href="../EA4/EA979.htm" target="_self">
+<area shape="rect" coords="1064,1212,1229,1291" href="../EA4/EA952.htm" target="_self">
+<area shape="rect" coords="798,1239,923,1309" href="../EA4/EA980.htm" target="_self">
+<area shape="rect" coords="569,1235,734,1314" href="../EA4/EA953.htm" target="_self">
+<area shape="rect" coords="1271,992,1436,1067" href="../EA4/EA896.htm" target="_self">
+<area shape="rect" coords="1057,977,1234,1082" href="../EA4/EA959.htm" target="_self">
+<area shape="rect" coords="768,985,933,1058" href="../EA4/EA893.htm" target="_self">
+<area shape="rect" coords="1261,827,1426,889" href="../EA4/EA895.htm" target="_self">
+<area shape="rect" coords="1050,723,1227,828" href="../EA4/EA871.htm" target="_self">
+<area shape="rect" coords="1261,756,1426,818" href="../EA4/EA894.htm" target="_self">
+<area shape="rect" coords="1277,679,1409,737" href="../EA4/EA975.htm" target="_self">
+<area shape="rect" coords="566,741,731,820" href="../EA4/EA963.htm" target="_self">
+<area shape="rect" coords="756,794,921,856" href="../EA4/EA898.htm" target="_self">
+<area shape="rect" coords="784,704,894,774" href="../EA4/EA982.htm" target="_self">
+<area shape="rect" coords="1250,540,1415,602" href="../EA4/EA902.htm" target="_self">
+<area shape="rect" coords="751,520,916,621" href="../EA4/EA897.htm" target="_self">
+<area shape="rect" coords="1279,438,1389,508" href="../EA4/EA983.htm" target="_self">
+<area shape="rect" coords="778,438,888,508" href="../EA4/EA981.htm" target="_self">
+<area shape="rect" coords="1050,484,1215,563" href="../EA4/EA967.htm" target="_self">
+<area shape="rect" coords="543,465,708,544" href="../EA4/EA962.htm" target="_self">
+<area shape="rect" coords="1070,95,1333,372" href="EA1018.htm" target="_self">
+<area shape="rect" coords="294,198,385,247" href="../EA4/EA858.htm" target="_self">
+<area shape="rect" coords="832,302,1023,372" href="EA1036.htm" target="_self">
+<area shape="rect" coords="37,302,189,372" href="EA1037.htm" target="_self">
+<area shape="rect" coords="527,302,691,372" href="EA1035.htm" target="_self">
+<area shape="rect" coords="269,10,408,124" href="../EA4/EA826.htm" target="_self">
+<area shape="rect" coords="23,98,203,228" href="../EA4/EA833.htm" target="_self">
+<area shape="rect" coords="858,52,997,153" href="../EA4/EA881.htm" target="_self">
+<area shape="rect" coords="863,182,992,244" href="../EA4/EA882.htm" target="_self">
+<area shape="rect" coords="518,78,700,218" href="../EA4/EA838.htm" target="_self">
+<area shape="rect" coords="526,926,961,1153" href="EA1030.htm" target="_self">
+<area shape="rect" coords="526,670,961,889" href="../EA6/EA1077.htm" target="_self">
+<area shape="rect" coords="1019,413,1454,632" href="../EA6/EA1078.htm" target="_self">
+<area shape="rect" coords="526,413,961,632" href="../EA6/EA1076.htm" target="_self">
+<area shape="rect" coords="1019,652,1454,907" href="../EA6/EA1070.htm" target="_self">
+<area shape="rect" coords="1019,938,1454,1121" href="../EA6/EA1075.htm" target="_self">
+<area shape="rect" coords="525,1182,960,1366" href="../EA6/EA1074.htm" target="_self">
+<area shape="rect" coords="1019,1152,1454,1336" href="../EA6/EA1073.htm" target="_self">
+<area shape="rect" coords="525,1400,960,1583" href="../EA6/EA1071.htm" target="_self">
+<area shape="rect" coords="1018,1367,1454,1583" href="../EA6/EA1058.htm" target="_self">
+<area shape="rect" coords="1486,415,1921,634" href="EA1034.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">ESSDiscreteControlProfile : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/15/2022 1:55:24 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">3/1/2023 9:45:42 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{2A5E4629-230D-45cc-A79F-492E80B56B37}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

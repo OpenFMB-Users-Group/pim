@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.8.3:1", "", "SEQ-072 Cap Bank to Publsih Status", "EARoot/EA1/EA4/EA8/EA3/EA525.htm", "185.png", "923", "0", "", "Sequence diagram0","{46D34E97-41FB-4274-96BF-A42BC842D2D3}");
+tocTab[tocTab.length] = new Array("0.1.4.8.3:2", "", "Publish Cap Bank Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA8/EA3/EA528.htm", "102.png", "E7606", "0", "", "InteractionOccurrence0","{633C9302-2F85-47b6-9CCD-D170F2D3730C}");
