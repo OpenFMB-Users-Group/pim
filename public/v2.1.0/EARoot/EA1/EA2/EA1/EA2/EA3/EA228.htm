@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Upper Level Circuit Segment Service</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Upper Level Circuit Segment Service </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.htm">Model</a> / <a href="../../../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../../../EA37.htm">Use Cases</a> / <a href="../../EA39.htm">Distributed Energy Resources (DER) Circuit Segment Management</a> / <a href="../EA186.htm">Sub-Processes</a> / <a href="EA232.htm">Upper level Circuit Segment Service </a> / <a href="EA233.htm">Upper level Circuit Segment Service </a> / <a href="EA246.htm">Upper Level Circuit Segment Service</a> / <a href="EA228.htm">Upper Level Circuit Segment Service</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/181.png" alt="Diagram"/> <a href="EA228.htm">Upper Level Circuit Segment Service</a></li>
+<li><img src="../../../../../../images/104.png" alt="Action"/> <a href="EA234.htm">10. Upper Level Circuit Segment Service subscribes to the planned interconnection schedule, reserve availability, and reserve request.</a></li>
+<li><img src="../../../../../../images/104.png" alt="Action"/> <a href="EA235.htm">20. Upper Level Circuit Segment Services calculates a new schedule and aggregated reserve profiles.</a></li>
+<li><img src="../../../../../../images/56.png" alt="Decision"/> <a href="EA244.htm">30. Any schedule and/or reserve changes?</a></li>
+<li><img src="../../../../../../images/104.png" alt="Action"/> <a href="EA245.htm">40. Upper Level Circuit Segment Service publishes Requested Interconnection schedule, reserve availability, and/or reserve request.<br /></a></li>
+<li><img src="../../../../../../images/69.png" alt="StateNode"/> <a href="EA236.htm">End</a></li>
+<li><img src="../../../../../../images/107.png" alt="ObjectNode"/> <a href="EA237.htm">Publish Requested Interconnection Schedule</a></li>
+<li><img src="../../../../../../images/107.png" alt="ObjectNode"/> <a href="EA238.htm">Publish ReserveAvailability</a></li>
+<li><img src="../../../../../../images/107.png" alt="ObjectNode"/> <a href="EA239.htm">Publish ReserveRequest</a></li>
+<li><img src="../../../../../../images/68.png" alt="StateNode"/> <a href="EA240.htm">Start</a></li>
+<li><img src="../../../../../../images/107.png" alt="ObjectNode"/> <a href="EA241.htm">Subscribe ReserveAvailability</a></li>
+<li><img src="../../../../../../images/107.png" alt="ObjectNode"/> <a href="EA242.htm">Subscribe ReserveRequest</a></li>
+<li><img src="../../../../../../images/107.png" alt="ObjectNode"/> <a href="EA243.htm">Subscribe to Planned Interconnection Schedule</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA229.png" usemap="#EA229" border="0" />
+
+<MAP NAME="EA229">
+<area shape="rect" coords="442,74,562,155" href="EA235.htm" target="_self">
+<area shape="rect" coords="615,70,693,151" href="EA244.htm" target="_self">
+<area shape="rect" coords="1111,102,1131,122" href="EA236.htm" target="_self">
+<area shape="rect" coords="179,74,371,153" href="EA234.htm" target="_self">
+<area shape="rect" coords="69,97,89,117" href="EA240.htm" target="_self">
+<area shape="rect" coords="754,71,1000,150" href="EA245.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Upper Level Circuit Segment Service : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/12/2020 9:37:59 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">4/1/2021 2:41:49 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{BA13F15E-83E5-434d-B6F9-EB77706915A9}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

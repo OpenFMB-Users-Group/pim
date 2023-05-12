@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>BreakerDiscreteControlProfile</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> BreakerDiscreteControlProfile </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../../EA716.htm">OpenFMB Information Model</a> / <a href="../EA720.htm">openfmb</a> / <a href="EA764.htm">breakermodule</a> / <a href="EA756.htm">BreakerDiscreteControlProfile</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA756.htm">BreakerDiscreteControlProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA758.htm">BreakerEventProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA760.htm">BreakerReadingProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA762.htm">BreakerStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA765.htm">Breaker</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA766.htm">BreakerDiscreteControl</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA767.htm">BreakerDiscreteControlProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA768.htm">BreakerDiscreteControlXCBR</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA769.htm">BreakerEvent</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA770.htm">BreakerEventProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA771.htm">BreakerReading</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA772.htm">BreakerReadingProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA773.htm">BreakerReadingValue</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA774.htm">BreakerStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA775.htm">BreakerStatusProfile</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA757.png" usemap="#EA757" border="0" />
+
+<MAP NAME="EA757">
+<area shape="rect" coords="694,233,912,321" href="../EA4/EA973.htm" target="_self">
+<area shape="rect" coords="1122,415,1218,466" href="../EA4/EA829.htm" target="_self">
+<area shape="rect" coords="956,395,1090,483" href="../EA4/EA908.htm" target="_self">
+<area shape="rect" coords="974,323,1072,372" href="../EA4/EA836.htm" target="_self">
+<area shape="rect" coords="967,239,1079,295" href="../EA4/EA972.htm" target="_self">
+<area shape="rect" coords="299,248,389,297" href="EA765.htm" target="_self">
+<area shape="rect" coords="274,105,413,206" href="../EA4/EA826.htm" target="_self">
+<area shape="rect" coords="10,153,190,283" href="../EA4/EA833.htm" target="_self">
+<area shape="rect" coords="736,10,874,111" href="../EA4/EA881.htm" target="_self">
+<area shape="rect" coords="741,166,869,199" href="../EA4/EA882.htm" target="_self">
+<area shape="rect" coords="692,354,910,382" href="EA768.htm" target="_self">
+<area shape="rect" coords="439,336,652,406" href="EA766.htm" target="_self">
+<area shape="rect" coords="12,355,181,404" href="EA767.htm" target="_self">
+<area shape="rect" coords="453,152,636,297" href="../EA4/EA838.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">BreakerDiscreteControlProfile : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/17/2017 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2/28/2023 4:26:11 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{D1366468-0E05-4eca-B76E-00BD030ADE9F}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Scenarios:&lt;br/&gt;- Send control: BreakerControlXCBR/Pos.ctrlVal&lt;br/&gt;- Send block: BreakerControlXCBR/blk&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

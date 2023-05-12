@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>commonmodule</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> commonmodule </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../EA716.htm">OpenFMB Information Model</a> / <a href="EA720.htm">openfmb</a> / <a href="./EA4/EA810.htm">commonmodule</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA4/EA806.htm">Enum update</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="./EA4/EA808.htm">Quality and TimeQuality</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA969.htm">ACD</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA813.htm">ACDCTerminal</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA814.htm">ActivePower</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA816.htm">AnalogEventAndStatusGGIO</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA817.htm">ApplicationSystem</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA818.htm">ASG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA819.htm">BCR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA821.htm">BooleanEventAndStatusGGIO</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA970.htm">CapabilityMessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA823.htm">CheckConditions</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA824.htm">ClearingTime</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA825.htm">CMV</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA826.htm">ConductingEquipment</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA827.htm">ConductingEquipmentTerminalReading</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA971.htm">ControlAPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA829.htm">ControlDPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA830.htm">ControlFSCC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA972.htm">ControlINC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA831.htm">ControlING</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA832.htm">ControlISC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA833.htm">ControlMessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA835.htm">ControlScheduleFSCH</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA836.htm">ControlSPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA837.htm">ControlTimestamp</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA838.htm">ControlValue</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA839.htm">CumulativeTime</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA840.htm">DateTimeInterval</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA842.htm">DEL</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA844.htm">DetailQual</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA973.htm">DiscreteControlXCBR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA847.htm">EnergyConsumer</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA848.htm">ENG_CalcMethodKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA849.htm">ENG_GridConnectModeKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA850.htm">ENG_PFSignKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA851.htm">ENG_ScheduleParameter</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA852.htm">ENS_BehaviourModeKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA853.htm">ENS_DERGeneratorStateKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA854.htm">ENS_DynamicTestKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA855.htm">ENS_GridConnectModeKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA856.htm">ENS_HealthKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA974.htm">ENS_SwitchingCapabilityKind</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA857.htm">EnterServiceAPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA858.htm">ESS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA859.htm">EventMessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA860.htm">EventValue</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA862.htm">FLOAT32</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA863.htm">FLOAT64</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA864.htm">ForecastIED</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA865.htm">ForecastValue</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA866.htm">ForecastValueSource</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA870.htm">HexBinary16</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA871.htm">HzWAPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA975.htm">HzWPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA873.htm">IdentifiedObject</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA874.htm">INT32</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA875.htm">INT32U</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA876.htm">INT64</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA877.htm">INT64U</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA878.htm">INT8</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA879.htm">IntegerEventAndStatusGGIO</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA880.htm">LimitWAPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA881.htm">LogicalNode</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA882.htm">LogicalNodeForControl</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA883.htm">LogicalNodeForEventAndStatus</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA884.htm">MeasurementValue</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA885.htm">MessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA886.htm">Meter</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA887.htm">MV</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA888.htm">NamedObject</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA976.htm">NameplateValue</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA892.htm">OperationDCTE</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA893.htm">OperationDFPF</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA894.htm">OperationDHFW</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA895.htm">OperationDLFW</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA896.htm">OperationDVAR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA897.htm">OperationDVVR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA898.htm">OperationDVWC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA899.htm">OperationDWGC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA900.htm">OperationDWMN</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA901.htm">OperationDWMX</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA902.htm">OperationDWVR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA903.htm">OptimizationMessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA905.htm">PFSPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA906.htm">PhaseAPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA908.htm">PhaseDPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA909.htm">PhaseDPS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA911.htm">PhaseINS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA912.htm">PhaseISC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA913.htm">PhaseMMTN</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA914.htm">PhaseRecloseAction</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA915.htm">PhaseSPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA916.htm">PhaseSPS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA917.htm">PMG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA919.htm">Quality</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA920.htm">RampRate</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA923.htm">ReadingMessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA924.htm">ReadingMMTN</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA925.htm">ReadingMMTR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA926.htm">ReadingMMXU</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA929.htm">ScheduleCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA931.htm">SchedulePoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA977.htm">SourceCapabilityConfiguration</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA978.htm">SourceCapabilityRatings</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA935.htm">StatusAndEventXCBR</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA936.htm">StatusDPS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA937.htm">StatusINC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA938.htm">StatusINS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA939.htm">StatusISC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA940.htm">StatusMessageInfo</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA941.htm">StatusSPS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA942.htm">StatusValue</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA943.htm">StringEventAndStatusGGIO</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA944.htm">SwitchCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA946.htm">SwitchPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA947.htm">Terminal</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA950.htm">TimeQuality</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA951.htm">Timestamp</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA952.htm">TmHzCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA979.htm">TmHzPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA953.htm">TmVoltCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA980.htm">TmVoltPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA954.htm">Unit</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA957.htm">uuidType</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA959.htm">VarSPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA960.htm">Vector</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA962.htm">VoltVarCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA981.htm">VoltVarPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA963.htm">VoltWCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA982.htm">VoltWPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA964.htm">VSC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA965.htm">VSS</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA966.htm">WSPC</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA967.htm">WVarCSG</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA983.htm">WVarPoint</a></li>
+<li><img src="../../../../images/5.png" alt="Class"/> <a href="./EA4/EA968.htm">WYE</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA812.htm">AbnOpCatKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA815.htm">AlrmKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA820.htm">BehaviourModeKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA822.htm">CalcMethodKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA834.htm">ControlModeKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA841.htm">DbPosKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA843.htm">DERGeneratorStateKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA845.htm">DirectionModeKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA846.htm">DynamicTestKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA861.htm">FaultDirectionKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA867.htm">GridConnectionStateKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA868.htm">GridConnectModeKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA869.htm">HealthKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA889.htm">NorOpCatKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA891.htm">OperatingStateKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA904.htm">PFSignKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA907.htm">PhaseCodeKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA910.htm">PhaseFaultDirectionKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA921.htm">ReactivePowerControlKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA927.htm">RealPowerControlKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA928.htm">RecloseActionKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA930.htm">ScheduleParameterKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA932.htm">SourceKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA933.htm">StateKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA945.htm">SwitchingCapabilityKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA948.htm">TimeAccuracyKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA955.htm">UnitMultiplierKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA956.htm">UnitSymbolKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA958.htm">ValidityKind</a></li>
+<li><img src="../../../../images/247.png" alt="Enumeration"/> <a href="./EA4/EA961.htm">VoltLimitModeKind</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">commonmodule  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">7/27/2017 11:29:50 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">4/27/2018 2:24:56 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">2.1</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{D7FB129A-BE2E-49de-B1EA-F856FB52CB51}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+		</ul>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">attributeFormDefault</td>
+				<td width="50%" class="TableRow" valign="top">unqualified</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">defaultNamespace</td>
+				<td width="50%" class="TableRow" valign="top"><a href="http://openfmb.org/2021/04/openfmb/commonmodule" target="_blank" >http://openfmb.org/2021/04/openfmb/commonmodule</a></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">elementFormDefault</td>
+				<td width="50%" class="TableRow" valign="top">qualified</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_csharp_namespace</td>
+				<td width="50%" class="TableRow" valign="top">openfmb.commonmodule</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_go_package</td>
+				<td width="50%" class="TableRow" valign="top">gitlab.com/openfmb/psm/ops/protobuf/go-openfmb-ops-protobuf/v2/openfmb/commonmodule</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_java_multiple_files</td>
+				<td width="50%" class="TableRow" valign="top">true</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">ProtobufTag_java_package</td>
+				<td width="50%" class="TableRow" valign="top">openfmb.commonmodule</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">schemaLocation</td>
+				<td width="50%" class="TableRow" valign="top">CommonModule.xsd</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">targetNamespace</td>
+				<td width="50%" class="TableRow" valign="top"><a href="http://openfmb.org/2021/04/openfmb/commonmodule" target="_blank" >http://openfmb.org/2021/04/openfmb/commonmodule</a></td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">targetNamespacePrefix</td>
+				<td width="50%" class="TableRow" valign="top">c</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">version</td>
+				<td width="50%" class="TableRow" valign="top">1.0</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>
+	</table>
+</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

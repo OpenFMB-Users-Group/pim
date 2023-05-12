@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.11.1:1", "", "SEQ-100 Breaker to Publish Event", "EARoot/EA1/EA4/EA11/EA1/EA571.htm", "185.png", "828", "0", "", "Sequence diagram0","{FC2DA1CB-6655-4a4f-9B51-4AA78ED0BEE6}");
+tocTab[tocTab.length] = new Array("0.1.4.11.1:2", "", "Publish Breaker Event to subscribers following the generic Event Pattern", "EARoot/EA1/EA4/EA11/EA1/EA576.htm", "102.png", "E6028", "0", "", "InteractionOccurrence0","{9257132E-2420-4d56-8690-BB815FA935EA}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.3.1", "1", "SEQ-020 Solar Inverter to Publish Event", "EARoot/EA1/EA4/EA3/EA1/EA406.htm", "4.png", "", "", "{7DC1F023-3611-4505-A25F-63ECD40826F3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.3.2", "1", "SEQ-021 Solar Inverter to Publish Readings", "EARoot/EA1/EA4/EA3/EA2/EA412.htm", "4.png", "", "", "{799405AA-8459-43cf-838F-EAEB3EE08650}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.3.3", "1", "SEQ-022 Solar Inverter to Publish Status", "EARoot/EA1/EA4/EA3/EA3/EA418.htm", "4.png", "", "", "{B5A1E8E6-BF2D-49cb-8491-8FC89C55F594}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.3.4", "1", "SEQ-023 Publish Solar Control Schedule", "EARoot/EA1/EA4/EA3/EA4/EA422.htm", "4.png", "", "", "{E151D598-F210-4102-8E9E-3BBFD6360E56}", "Package");

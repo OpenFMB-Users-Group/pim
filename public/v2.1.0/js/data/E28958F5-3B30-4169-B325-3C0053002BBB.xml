@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.4:1", "", "SEQ-013 Publish Energy Storage System Control Schedule", "EARoot/EA1/EA4/EA2/EA4/EA393.htm", "185.png", "808", "0", "", "Sequence diagram0","{1180D7CA-7E50-4ea2-9FD5-53253C32DC6A}");
+tocTab[tocTab.length] = new Array("0.1.4.2.4:2", "", "Publish ESS Control Schedule to subscribers following the generic Control Pattern", "EARoot/EA1/EA4/EA2/EA4/EA396.htm", "102.png", "E5942", "0", "", "InteractionOccurrence0","{B95A0077-B5AB-4457-931D-F71FF79654CF}");

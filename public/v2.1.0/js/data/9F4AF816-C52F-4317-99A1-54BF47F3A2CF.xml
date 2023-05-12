@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.1.5.1.2:1", "", "BreakerDiscreteControlProfile", "EARoot/EA1/EA5/EA1/EA2/EA756.htm", "175.png", "22", "0", "", "Logical diagram0","{D1366468-0E05-4eca-B76E-00BD030ADE9F}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:2", "", "BreakerEventProfile", "EARoot/EA1/EA5/EA1/EA2/EA758.htm", "175.png", "79", "0", "", "Logical diagram0","{A07EE98A-C309-4ac0-84FA-2E4D32B25C8E}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:3", "", "BreakerReadingProfile", "EARoot/EA1/EA5/EA1/EA2/EA760.htm", "175.png", "13", "0", "", "Logical diagram0","{D1A6DAB2-104A-4c66-9EEB-E9254562CA7A}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:4", "", "BreakerStatusProfile", "EARoot/EA1/EA5/EA1/EA2/EA762.htm", "175.png", "89", "0", "", "Logical diagram0","{F2CF7AFF-AFE9-4312-8601-AFA08C5970DA}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:5", "", "Breaker", "EARoot/EA1/EA5/EA1/EA2/EA765.htm", "5.png", "E1922", "0", "", "Class0","{D3F33699-9857-4f1a-9F85-0632021143C2}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:6", "", "BreakerDiscreteControl", "EARoot/EA1/EA5/EA1/EA2/EA766.htm", "5.png", "E950", "0", "", "Class0","{68DA4420-883E-4032-AD34-2ACFA614A0AC}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:7", "", "BreakerDiscreteControlProfile", "EARoot/EA1/EA5/EA1/EA2/EA767.htm", "5.png", "E960", "0", "", "Class0","{71C40011-8EF0-49a3-A1D3-45D209F825F5}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:8", "", "«LNClass» BreakerDiscreteControlXCBR", "EARoot/EA1/EA5/EA1/EA2/EA768.htm", "5.png", "E969", "0", "", "Class0","{42943178-5BDD-42e5-A8AC-BB4C846AD140}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:9", "", "BreakerEvent", "EARoot/EA1/EA5/EA1/EA2/EA769.htm", "5.png", "E1650", "0", "", "Class0","{01A2ABA9-1877-4d31-80A6-197DDAC22105}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:10", "", "BreakerEventProfile", "EARoot/EA1/EA5/EA1/EA2/EA770.htm", "5.png", "E1649", "0", "", "Class0","{6324B0E9-68D2-4062-B0CD-25497CE4F97D}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:11", "", "BreakerReading", "EARoot/EA1/EA5/EA1/EA2/EA771.htm", "5.png", "E1925", "0", "", "Class0","{39EC891E-661B-4519-A51E-81130AF63F2A}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:12", "", "BreakerReadingProfile", "EARoot/EA1/EA5/EA1/EA2/EA772.htm", "5.png", "E277", "0", "", "Class0","{AE139041-D173-43af-9610-CA2254CDEF8B}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:13", "", "BreakerReadingValue", "EARoot/EA1/EA5/EA1/EA2/EA773.htm", "5.png", "E280", "0", "", "Class0","{29B1DFDB-A046-4964-9224-322C59F990EE}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:14", "", "BreakerStatus", "EARoot/EA1/EA5/EA1/EA2/EA774.htm", "5.png", "E1771", "0", "", "Class0","{2676FE5F-8342-47f6-9ABE-A90B6CBF56C8}");
+tocTab[tocTab.length] = new Array("0.1.5.1.2:15", "", "BreakerStatusProfile", "EARoot/EA1/EA5/EA1/EA2/EA775.htm", "5.png", "E1770", "0", "", "Class0","{9242E584-81BA-4446-B7EE-E2967F6E20BA}");

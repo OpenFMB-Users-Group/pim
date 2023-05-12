@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.15.1", "1", "Control or Control Schedule Pattern", "EARoot/EA1/EA4/EA15/EA1/EA655.htm", "4.png", "", "", "{FC210B21-C25D-40d7-8F7C-D4EE5FC7C539}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.15.2", "1", "Event Patterns", "EARoot/EA1/EA4/EA15/EA2/EA666.htm", "4.png", "", "", "{F3C1A43D-83BB-4d6f-8C70-F71FCF824E80}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.15.3", "1", "Reading Pattern", "EARoot/EA1/EA4/EA15/EA3/EA679.htm", "4.png", "", "", "{9DE3991F-C7A3-4ea9-9CA6-0DA2C3DE30F8}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.15.4", "1", "Status Pattern", "EARoot/EA1/EA4/EA15/EA4/EA690.htm", "4.png", "", "", "{9E34AC58-FC10-490c-90E6-00E7A877A8C7}", "Package");

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.11.3:1", "", "SEQ-102 Breaker to Publish Status", "EARoot/EA1/EA4/EA11/EA3/EA583.htm", "185.png", "919", "0", "", "Sequence diagram0","{6D3464B8-92CA-4d1e-A4D7-A6244E5EFB4B}");
+tocTab[tocTab.length] = new Array("0.1.4.11.3:2", "", "Publish Breaker Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA11/EA3/EA586.htm", "102.png", "E7580", "0", "", "InteractionOccurrence0","{7E12B8FD-F195-4cf4-BBF9-E441CF2C628D}");

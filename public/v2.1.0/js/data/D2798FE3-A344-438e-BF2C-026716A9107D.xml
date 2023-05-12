@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.1.13:1", "", "«Functional» REQ-130 Switch Events and Status", "EARoot/EA1/EA3/EA1/EA13/EA312.htm", "19.png", "E5902", "0", "", "Requirement0","{1863BD54-020E-4a9d-8D2C-DE8E7348FA2C}");
+tocTab[tocTab.length] = new Array("0.1.3.1.13:2", "", "«Functional» REQ-131 Switch Readings", "EARoot/EA1/EA3/EA1/EA13/EA313.htm", "19.png", "E5903", "0", "", "Requirement0","{092653A4-29B3-49e5-8648-7A236FA7612D}");
+tocTab[tocTab.length] = new Array("0.1.3.1.13:3", "", "«Functional» REQ-132 Switch Control", "EARoot/EA1/EA3/EA1/EA13/EA314.htm", "19.png", "E5904", "0", "", "Requirement0","{D32ECFAA-2136-4e14-8274-0419D4C05867}");

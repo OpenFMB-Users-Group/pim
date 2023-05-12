@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.17.1:1", "", "SEQ-150 Market Service to Publish Status", "EARoot/EA1/EA4/EA17/EA1/EA706.htm", "185.png", "943", "0", "", "Sequence diagram0","{DAB5168B-D58A-4976-940C-50FEC7A88B35}");
+tocTab[tocTab.length] = new Array("0.1.4.17.1:2", "", "Publish Market Service Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA17/EA1/EA709.htm", "102.png", "E7735", "0", "", "InteractionOccurrence0","{1FD3AB3B-812E-4856-B11D-F563DA4BCEEC}");

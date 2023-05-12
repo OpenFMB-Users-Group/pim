@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.2.1", "1", "SEQ-010 Energy Storage System to Publish Event", "EARoot/EA1/EA4/EA2/EA1/EA377.htm", "4.png", "", "", "{5BE6A287-B2A0-41ba-872C-5F75E9ED6F32}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.2", "1", "SEQ-011 Energy Storage System to Publish Readings", "EARoot/EA1/EA4/EA2/EA2/EA383.htm", "4.png", "", "", "{621EC9D3-2601-44ee-BCE0-99628CE15DEE}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.3", "1", "SEQ-012 Energy Storage System to Publish Status", "EARoot/EA1/EA4/EA2/EA3/EA389.htm", "4.png", "", "", "{DE7D5FE7-B752-4ea2-B713-04480C5BD42B}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2.4", "1", "SEQ-013 Publish Energy Storage System Control Schedule", "EARoot/EA1/EA4/EA2/EA4/EA395.htm", "4.png", "", "", "{E28958F5-3B30-4169-B325-3C0053002BBB}", "Package");

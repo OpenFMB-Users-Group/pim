@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.6:1", "", "OpenFMB Data Modeling Approach", "EARoot/EA1/EA6/EA1284.htm", "175.png", "850", "0", "", "Logical diagram0","{6A0F4F7B-C221-4167-9FAB-E1CE9DED46E0}");
+tocTab[tocTab.length] = new Array("0.1.6.1", "1", "OpenFMB Information Model", "EARoot/EA1/EA6/EA1/EA1289.htm", "4.png", "", "", "{D0AE5097-7E38-47c2-B4A1-84562B5CD965}", "Package");

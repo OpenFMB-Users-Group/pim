@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SolarCapabilityOverrideProfile</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> SolarCapabilityOverrideProfile </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Model</a> / <a href="../../../EA5.htm">OpenFMB Operational Model (61850-CIM) (v2.1.0)</a> / <a href="../../EA716.htm">OpenFMB Information Model</a> / <a href="../EA720.htm">openfmb</a> / <a href="EA1235.htm">solarmodule</a> / <a href="EA1221.htm">SolarCapabilityOverrideProfile</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1221.htm">SolarCapabilityOverrideProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1223.htm">SolarCapabilityProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1225.htm">SolarControlProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1227.htm">SolarDiscreteControlProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1229.htm">SolarEventProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1231.htm">SolarReadingProfile</a></li>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA1233.htm">SolarStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1247.htm">SolarCapability</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1248.htm">SolarCapabilityConfiguration</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1249.htm">SolarCapabilityOverride</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1250.htm">SolarCapabilityOverrideProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1251.htm">SolarCapabilityProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1252.htm">SolarCapabilityRatings</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1236.htm">SolarControl</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1253.htm">SolarControlFSCC</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1237.htm">SolarControlProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1238.htm">SolarControlScheduleFSCH</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1239.htm">SolarCSG</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1240.htm">SolarCurvePoint</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1254.htm">SolarDiscreteControl</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1255.htm">SolarDiscreteControlProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1256.htm">SolarDiscreteControlPV</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1257.htm">SolarEvent</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1241.htm">SolarEventAndStatusZGEN</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1242.htm">SolarEventProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1258.htm">SolarEventZGEN</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1243.htm">SolarInverter</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1244.htm">SolarPoint</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1245.htm">SolarPointStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1259.htm">SolarReading</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1260.htm">SolarReadingProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1261.htm">SolarStatus</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1246.htm">SolarStatusProfile</a></li>
+<li><img src="../../../../../images/5.png" alt="Class"/> <a href="EA1262.htm">SolarStatusZGEN</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1222.png" usemap="#EA1222" border="0" />
+
+<MAP NAME="EA1222">
+<area shape="rect" coords="33,97,192,227" href="../EA4/EA970.htm" target="_self">
+<area shape="rect" coords="875,291,1079,350" href="EA1248.htm" target="_self">
+<area shape="rect" coords="521,292,746,351" href="EA1249.htm" target="_self">
+<area shape="rect" coords="334,177,431,212" href="EA1243.htm" target="_self">
+<area shape="rect" coords="314,33,453,134" href="../EA4/EA826.htm" target="_self">
+<area shape="rect" coords="10,296,216,346" href="EA1250.htm" target="_self">
+<area shape="rect" coords="573,107,694,177" href="../EA4/EA873.htm" target="_self">
+<area shape="rect" coords="914,10,1041,238" href="../EA4/EA977.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">SolarCapabilityOverrideProfile : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/15/2021 2:15:02 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">2/3/2023 2:56:45 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">OpenFMB</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">2.1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{503010B8-5ADE-4864-A43E-E40282E00A47}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

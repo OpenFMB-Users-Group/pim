@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.1.6.1.4:1", "", "Device", "EARoot/EA1/EA6/EA1/EA4/EA1318.htm", "5.png", "E6150", "0", "", "Class0","{13ABB52B-BFE9-436a-A586-6B22183E254A}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:2", "", "DeviceProfile", "EARoot/EA1/EA6/EA1/EA4/EA1319.htm", "5.png", "E6149", "0", "", "Class0","{8FC9312E-6BCA-41bd-8C67-F32673F78C70}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:3", "", "DeviceStatus", "EARoot/EA1/EA6/EA1/EA4/EA1320.htm", "5.png", "E6151", "0", "", "Class0","{FE59F31B-B7F6-44cd-9701-3431658358D1}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:4", "", "IEC 61850", "EARoot/EA1/EA6/EA1/EA4/EA1321.htm", "5.png", "E6145", "0", "", "Class0","{A33FD0DF-5C97-4c30-96DF-D843EB50D62C}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:5", "", "IEC 61968/61970/62325 (CIM)", "EARoot/EA1/EA6/EA1/EA4/EA1322.htm", "5.png", "E6144", "0", "", "Class0","{C6FDEA85-8A35-4521-9A12-9FC886CDFB86}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:6", "", "OpenFMB Information Model", "EARoot/EA1/EA6/EA1/EA4/EA1323.htm", "5.png", "E6148", "0", "", "Class0","{EE96B189-F5E4-4f08-92A9-9818B0B3CE8A}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:7", "", "Other standards (if needed)", "EARoot/EA1/EA6/EA1/EA4/EA1324.htm", "5.png", "E6146", "0", "", "Class0","{2946B0E4-CC09-4961-B243-CD92EBFCFE2C}");
+tocTab[tocTab.length] = new Array("0.1.6.1.4:8", "", "StatusValue", "EARoot/EA1/EA6/EA1/EA4/EA1325.htm", "5.png", "E6156", "0", "", "Class0","{FC4A81BA-59E1-4feb-BB97-DFA39D2098CF}");

@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.4.15.4:1", "", "Status Pattern", "EARoot/EA1/EA4/EA15/EA4/EA688.htm", "185.png", "841", "0", "", "Sequence diagram0","{819BA4F7-D26C-4828-9C8F-A26FDF741701}");
+tocTab[tocTab.length] = new Array("0.1.4.15.4:2", "", "", "EARoot/EA1/EA4/EA15/EA4/EA691.htm", "100.png", "E6105", "0", "", "MessageEndpoint0","{ACC4A671-B5AD-434a-87CF-DD541A9F1543}");
+tocTab[tocTab.length] = new Array("0.1.4.15.4:3", "", "Status Publisher", "EARoot/EA1/EA4/EA15/EA4/EA692.htm", "6.png", "E6101", "0", "", "Actor0","{A7913FB0-0CF2-4be0-9E0D-7A484CE3660A}");
+tocTab[tocTab.length] = new Array("0.1.4.15.4:4", "", "Status Publisher FMB", "EARoot/EA1/EA4/EA15/EA4/EA693.htm", "6.png", "E6102", "0", "", "Actor0","{3069F49F-8B88-4cfe-9D46-54D40040267D}");
+tocTab[tocTab.length] = new Array("0.1.4.15.4:5", "", "Status Subscriber", "EARoot/EA1/EA4/EA15/EA4/EA695.htm", "6.png", "E6103", "0", "", "Actor0","{98EE78B0-6514-43b4-8334-30387771BFF7}");
+tocTab[tocTab.length] = new Array("0.1.4.15.4:6", "", "Status Subscriber FMB", "EARoot/EA1/EA4/EA15/EA4/EA696.htm", "6.png", "E6104", "0", "", "Actor0","{8FF32662-4626-4679-9900-3249745CFED9}");
