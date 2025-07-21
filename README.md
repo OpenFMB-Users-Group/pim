@@ -4,6 +4,16 @@ This repository contains the OpenFMB operational use-case data models drawing up
 
 ## Viewing the model
 
+### Online HTML Documentation
+
+The easiest way to view the documentation is through the online HTML version hosted on GitHub Pages:
+
+* [Latest Version (v2.2.0)](https://openfmb-users-group.github.io/pim/public/v2.2.0/index.htm)
+* [Version 2.1.0](https://openfmb-users-group.github.io/pim/public/v2.1.0/index.htm)
+* [Version 2.0.0](https://openfmb-users-group.github.io/pim/public/v2.0.0/index.htm)
+
+### Enterprise Architect Viewer
+
 The UML model was built using Enterprise Architect (EA) from Sparx Systems. If you currently do not own a license for EA, there is a free viewer from Sparx Systems that you can download to view the model here:
 
 * [Enterprise Architect Viewer - 64-bit](https://sparxsystems.com/bin/ealite_x64.msi)
