@@ -6,7 +6,7 @@ This repository contains the OpenFMB operational use-case data models drawing up
 
 ### Online HTML Documentation
 
-The easiest way to view the documentation is through the online HTML version hosted on GitHub Pages:
+The easiest way to view the data model is through the online HTML version hosted on GitHub Pages:
 
 * [Latest Version (v2.2.0)](https://openfmb-users-group.github.io/pim/public/v2.2.0/index.htm)
 * [Version 2.1.0](https://openfmb-users-group.github.io/pim/public/v2.1.0/index.htm)
