@@ -1,4 +1,4 @@
-# OpenFMB PIM Documentation
+# OpenFMB PIM HTML
 
 This repository contains the OpenFMB Platform Independent Model (PIM) documentation in HTML format.
 
