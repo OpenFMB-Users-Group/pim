@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.4.1", "1", "SEQ-030 Resource to Publish Event", "EARoot/EA1/EA4/EA4/EA1/EA432.htm", "4.png", "", "", "{F46FEE36-999E-438d-B4E3-7DC9503BF4E9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.4.2", "1", "SEQ-031 Resource to Publish Readings", "EARoot/EA1/EA4/EA4/EA2/EA436.htm", "4.png", "", "", "{4DDC1EDC-A97F-4136-BA5E-89A2DAF8CA9E}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.4.3", "1", "SEQ-032 Resource to Publish Status", "EARoot/EA1/EA4/EA4/EA3/EA442.htm", "4.png", "", "", "{DFC16343-2557-49c9-9BA9-88B7AD6EA44A}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.4.4", "1", "SEQ-033 Publish Resource Discrete Control", "EARoot/EA1/EA4/EA4/EA4/EA446.htm", "4.png", "", "", "{A03A305E-91A5-4c92-B35C-9D601DDCC958}", "Package");

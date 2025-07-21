@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.14:1", "", "ReserveAvailabilityProfile", "EARoot/EA14/EA570.htm", "175.png", "904", "0", "", "Diagram diagram0","{50D1D7D7-5F48-41bb-AA7F-B3C47ECE3692}");
-tocTab[tocTab.length] = new Array("0.14:2", "", "ReserveRequestProfile", "EARoot/EA14/EA572.htm", "175.png", "905", "0", "", "Diagram diagram0","{45A5A187-248E-4c0f-9464-1AB11A98BBD0}");
-tocTab[tocTab.length] = new Array("0.14:3", "", "«LNClass» ReserveMargin", "EARoot/EA14/EA575.htm", "5.png", "E7428", "0", "", "Class0","{AF7400E8-483C-4105-85E9-5C2DD615B631}");
-tocTab[tocTab.length] = new Array("0.14:4", "", "AllocatedMargin", "EARoot/EA14/EA576.htm", "5.png", "E7429", "0", "", "Class0","{3C057FE3-DE06-43e1-81BF-27A3A5BBC757}");
-tocTab[tocTab.length] = new Array("0.14:5", "", "ReserveAvailability", "EARoot/EA14/EA577.htm", "5.png", "E7427", "0", "", "Class0","{7849AF32-8A1C-4fc6-8F93-D425ADA78C9B}");
-tocTab[tocTab.length] = new Array("0.14:6", "", "ReserveRequest", "EARoot/EA14/EA578.htm", "5.png", "E7436", "0", "", "Class0","{DE6A9390-6420-4a07-954E-3539DE609C09}");
-tocTab[tocTab.length] = new Array("0.14:7", "", "ReserveAvailabilityProfile", "EARoot/EA14/EA579.htm", "5.png", "E7425", "0", "", "Class0","{64BAD80D-7D5B-4a13-9B82-08C166265DAE}");
-tocTab[tocTab.length] = new Array("0.14:8", "", "ReserveRequestProfile", "EARoot/EA14/EA580.htm", "5.png", "E7433", "0", "", "Class0","{0A6A19A2-6E7D-4443-9038-EF1561B7D1F3}");
+tocTab[tocTab.length] = new Array("0.5.1.14:1", "", "ReserveAvailabilityProfile", "EARoot/EA5/EA1/EA14/EA1348.htm", "175.png", "904", "0", "", "Diagram diagram0","{50D1D7D7-5F48-41bb-AA7F-B3C47ECE3692}");
+tocTab[tocTab.length] = new Array("0.5.1.14:2", "", "ReserveRequestProfile", "EARoot/EA5/EA1/EA14/EA1350.htm", "175.png", "905", "0", "", "Diagram diagram0","{45A5A187-248E-4c0f-9464-1AB11A98BBD0}");
+tocTab[tocTab.length] = new Array("0.5.1.14:3", "", "«LNClass» ReserveMargin", "EARoot/EA5/EA1/EA14/EA1353.htm", "5.png", "E7428", "0", "", "Class0","{AF7400E8-483C-4105-85E9-5C2DD615B631}");
+tocTab[tocTab.length] = new Array("0.5.1.14:4", "", "AllocatedMargin", "EARoot/EA5/EA1/EA14/EA1354.htm", "5.png", "E7429", "0", "", "Class0","{3C057FE3-DE06-43e1-81BF-27A3A5BBC757}");
+tocTab[tocTab.length] = new Array("0.5.1.14:5", "", "ReserveAvailability", "EARoot/EA5/EA1/EA14/EA1355.htm", "5.png", "E7427", "0", "", "Class0","{7849AF32-8A1C-4fc6-8F93-D425ADA78C9B}");
+tocTab[tocTab.length] = new Array("0.5.1.14:6", "", "ReserveRequest", "EARoot/EA5/EA1/EA14/EA1356.htm", "5.png", "E7436", "0", "", "Class0","{DE6A9390-6420-4a07-954E-3539DE609C09}");
+tocTab[tocTab.length] = new Array("0.5.1.14:7", "", "ReserveAvailabilityProfile", "EARoot/EA5/EA1/EA14/EA1357.htm", "5.png", "E7425", "0", "", "Class0","{64BAD80D-7D5B-4a13-9B82-08C166265DAE}");
+tocTab[tocTab.length] = new Array("0.5.1.14:8", "", "ReserveRequestProfile", "EARoot/EA5/EA1/EA14/EA1358.htm", "5.png", "E7433", "0", "", "Class0","{0A6A19A2-6E7D-4443-9038-EF1561B7D1F3}");

@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.13.3:1", "", "SEQ-121 Circuit Segment Service to Publish Status", "EARoot/EA1/EA4/EA13/EA3/EA616.htm", "185.png", "941", "0", "", "Sequence diagram0","{76899985-47F6-4d5c-84B7-CA22110164C3}");
+tocTab[tocTab.length] = new Array("0.1.4.13.3:2", "", "Publish Circuit Segment Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA13/EA3/EA619.htm", "102.png", "E7671", "0", "", "InteractionOccurrence0","{F0767076-E028-41e1-8479-2CB37CBB710E}");

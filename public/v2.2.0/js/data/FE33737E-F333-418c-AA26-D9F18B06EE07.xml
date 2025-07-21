@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.4.20.1:1", "", "SEQ-180 Environment to Publsih Readings", "EARoot/EA4/EA20/EA1/EA773.htm", "185.png", "997", "0", "", "Sequence diagram0","{B0DE1BE4-4E83-40e5-9C96-18D845B3BFB7}");
+tocTab[tocTab.length] = new Array("0.4.20.1:2", "", "Publish Meter Reading to subscribers following the generic Reading Pattern", "EARoot/EA4/EA20/EA1/EA776.htm", "102.png", "E8258", "0", "", "InteractionOccurrence0","{56CE1053-B065-43e0-A3C7-5D5070921330}");

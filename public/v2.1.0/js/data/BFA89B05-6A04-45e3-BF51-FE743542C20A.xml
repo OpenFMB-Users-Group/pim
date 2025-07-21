@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.18.1:1", "", "SEQ-160 Weather Forecast Service to Publish Status", "EARoot/EA1/EA4/EA18/EA1/EA711.htm", "185.png", "944", "0", "", "Sequence diagram0","{3598A6DB-F4D2-4d36-92C6-EAD7D3D12353}");
+tocTab[tocTab.length] = new Array("0.1.4.18.1:2", "", "Publish Weather Forecast Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA18/EA1/EA714.htm", "102.png", "E7736", "0", "", "InteractionOccurrence0","{1F6235EA-79E0-48bc-BA54-C311E78C9044}");

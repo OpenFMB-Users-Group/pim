@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.10.1", "1", "SEQ-090 Regulator Event", "EARoot/EA1/EA4/EA10/EA1/EA545.htm", "4.png", "", "", "{E8F62692-5D07-4f06-B05E-44C4DF297D7F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.10.2", "1", "SEQ-091 Regulator Readings", "EARoot/EA1/EA4/EA10/EA2/EA551.htm", "4.png", "", "", "{F414AA7A-86F6-4862-8BD9-E287F8F65EEF}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.10.3", "1", "SEQ-092 Regulator Status", "EARoot/EA1/EA4/EA10/EA3/EA557.htm", "4.png", "", "", "{60CE87A8-4376-412c-9087-203ED94FEC6E}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.10.4", "1", "SEQ-093 Regulator Control and Control Schedule", "EARoot/EA1/EA4/EA10/EA4/EA561.htm", "4.png", "", "", "{8BC62B0A-7F7F-422f-B044-5AB4D29B7C73}", "Package");

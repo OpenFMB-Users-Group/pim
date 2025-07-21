@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.10.3:1", "", "SEQ-092 Regulator Status", "EARoot/EA1/EA4/EA10/EA3/EA555.htm", "185.png", "931", "0", "", "Sequence diagram0","{065109B0-F3B4-4e30-9535-535FF0DCB91C}");
+tocTab[tocTab.length] = new Array("0.1.4.10.3:2", "", "Publish Regulator Status to subscribers following the generic Status Pattern", "EARoot/EA1/EA4/EA10/EA3/EA558.htm", "102.png", "E7644", "0", "", "InteractionOccurrence0","{AF3FAF25-5397-4ac1-962B-1F8E2BCC1999}");

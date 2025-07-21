@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.4.8.1", "1", "SEQ-070 Cap Bank to Publsih Event", "EARoot/EA1/EA4/EA8/EA1/EA518.htm", "4.png", "", "", "{42420F8B-A2FC-485a-9F29-1162F83607B5}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.8.2", "1", "SEQ-071 Cap Bank to Publsih Readings", "EARoot/EA1/EA4/EA8/EA2/EA522.htm", "4.png", "", "", "{3CC59619-A9D2-46a4-B9A8-289167495B55}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.8.3", "1", "SEQ-072 Cap Bank to Publsih Status", "EARoot/EA1/EA4/EA8/EA3/EA526.htm", "4.png", "", "", "{48AFF54F-3E56-4966-BC7C-934B4486FEA8}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.8.4", "1", "SEQ-073 Publish Cap Bank Control and Control Schedule", "EARoot/EA1/EA4/EA8/EA4/EA530.htm", "4.png", "", "", "{90769390-F6CC-4ebf-81F5-87642192F8E0}", "Package");

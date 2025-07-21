@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.13.1:1", "", "SEQ-120 Circuit Segment Service to Publish Event", "EARoot/EA1/EA4/EA13/EA1/EA605.htm", "185.png", "936", "0", "", "Sequence diagram0","{FC03D7CA-B894-4a45-95B8-8804499EC90B}");
+tocTab[tocTab.length] = new Array("0.1.4.13.1:2", "", "Publish Circuit Segment Event to subscribers following the generic Event Pattern", "EARoot/EA1/EA4/EA13/EA1/EA608.htm", "102.png", "E7670", "0", "", "InteractionOccurrence0","{86F514BD-5E22-4f66-A8DA-E7DC7A25FA40}");

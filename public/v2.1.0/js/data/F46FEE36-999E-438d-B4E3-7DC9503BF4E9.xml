@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.4.4.1:1", "", "SEQ-030 Resource to Publish Event", "EARoot/EA1/EA4/EA4/EA1/EA430.htm", "185.png", "932", "0", "", "Sequence diagram0","{C886789F-4351-45b5-9688-FE64A7A46329}");
+tocTab[tocTab.length] = new Array("0.1.4.4.1:2", "", "Publish Resource Event to subscribers following the generic Event Pattern", "EARoot/EA1/EA4/EA4/EA1/EA433.htm", "102.png", "E7634", "0", "", "InteractionOccurrence0","{D30C59A9-74FF-4114-B267-0C60CE6284D2}");

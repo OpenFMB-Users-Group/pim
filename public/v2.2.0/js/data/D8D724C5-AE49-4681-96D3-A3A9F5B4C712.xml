@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.4.15.1", "1", "SEQ-170 Electric Vehicle Supply Equipment to Publish Event", "EARoot/EA4/EA15/EA1/EA681.htm", "4.png", "", "", "{6365D89F-A9B3-41ca-A659-BBE9A9D372C5}", "Package");
+tocTab[tocTab.length] = new Array("0.4.15.2", "1", "SEQ-171 Electric Vehicle Supply Equipment to Publish Readings", "EARoot/EA4/EA15/EA2/EA687.htm", "4.png", "", "", "{A2A60AFD-EBF5-4a90-8875-7BE96B2D0021}", "Package");
+tocTab[tocTab.length] = new Array("0.4.15.3", "1", "SEQ-172 Electric Vehicle Supply Equipment to Publish Status", "EARoot/EA4/EA15/EA3/EA693.htm", "4.png", "", "", "{4BF5399F-881D-4599-9A2C-E60A954A34BB}", "Package");
+tocTab[tocTab.length] = new Array("0.4.15.4", "1", "SEQ-173 Electric Vehicle Supply Equipment to Publish Control Schedule", "EARoot/EA4/EA15/EA4/EA699.htm", "4.png", "", "", "{8F66E11F-BA90-452d-A4CE-D4FA624D9532}", "Package");

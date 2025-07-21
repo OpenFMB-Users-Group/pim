@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.4.15.3:1", "", "SEQ-172 EVSE to Publish Status", "EARoot/EA4/EA15/EA3/EA691.htm", "185.png", "990", "0", "", "Sequence diagram0","{65418FEE-039E-4c0c-897E-BD70DCC10563}");
+tocTab[tocTab.length] = new Array("0.4.15.3:2", "", "Publish EVSEStatus to subscribers following the generic Status Pattern", "EARoot/EA4/EA15/EA3/EA694.htm", "102.png", "E8221", "0", "", "InteractionOccurrence0","{981A3CF5-18BB-4066-9AE1-352FD965404C}");
